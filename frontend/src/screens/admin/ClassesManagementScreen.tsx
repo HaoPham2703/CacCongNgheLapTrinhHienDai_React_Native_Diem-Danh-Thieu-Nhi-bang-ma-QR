@@ -44,14 +44,22 @@ export function ClassesManagementScreen(_: Props) {
   const [isLoading, setIsLoading] = useState(true);
   const [refreshing, setRefreshing] = useState(false);
   const [modalVisible, setModalVisible] = useState(false);
+  const [createModalVisible, setCreateModalVisible] = useState(false);
   const [selectedClass, setSelectedClass] = useState<ClassItem | null>(null);
   const [selectedTeacherId, setSelectedTeacherId] = useState("");
   const [error, setError] = useState<string | null>(null);
+  const [createError, setCreateError] = useState<string | null>(null);
   const [searchQuery, setSearchQuery] = useState("");
   const [sortKey, setSortKey] = useState<SortKey>("className");
   const [sortDirection, setSortDirection] = useState<"asc" | "desc">("asc");
   const [currentPage, setCurrentPage] = useState(1);
   const [pageSize, setPageSize] = useState(10);
+  const [createForm, setCreateForm] = useState({
+    className: "",
+    grade: "",
+    academicYear: "",
+    teacherId: "",
+  });
 
   const loadData = useCallback(async () => {
     if (!token) return;
@@ -62,7 +70,7 @@ export function ClassesManagementScreen(_: Props) {
     ]);
 
     setClasses(classesRes.classes);
-    setTeachers(teachersRes.users);
+    setTeachers(teachersRes.users.filter((teacher) => teacher.isActive));
   }, [token]);
 
   useEffect(() => {
@@ -98,6 +106,18 @@ export function ClassesManagementScreen(_: Props) {
     setModalVisible(true);
   }
 
+  function openCreateModal() {
+    const defaultTeacherId = teachers[0]?.id || "";
+    setCreateForm({
+      className: "",
+      grade: "",
+      academicYear: "",
+      teacherId: defaultTeacherId,
+    });
+    setCreateError(null);
+    setCreateModalVisible(true);
+  }
+
   async function handleAssign() {
     if (!token || !selectedClass) return;
 
@@ -108,6 +128,34 @@ export function ClassesManagementScreen(_: Props) {
       await loadData();
     } catch (err) {
       setError(err instanceof Error ? err.message : "Lỗi khi gán giáo viên");
+    }
+  }
+
+  async function handleCreateClass() {
+    if (!token) return;
+
+    const className = createForm.className.trim();
+    const grade = createForm.grade.trim();
+    const academicYear = createForm.academicYear.trim();
+    const teacherId = createForm.teacherId.trim();
+
+    if (!className || !grade || !academicYear || !teacherId) {
+      setCreateError("Vui lòng nhập đầy đủ thông tin và chọn giáo viên chủ nhiệm");
+      return;
+    }
+
+    try {
+      setCreateError(null);
+      await api.createClass(token, {
+        className,
+        grade,
+        academicYear,
+        teacherId,
+      });
+      setCreateModalVisible(false);
+      await loadData();
+    } catch (err) {
+      setCreateError(err instanceof Error ? err.message : "Lỗi khi tạo lớp học");
     }
   }
 
@@ -171,7 +219,10 @@ export function ClassesManagementScreen(_: Props) {
               Sắp xếp danh sách lớp, tìm nhanh và gán giáo viên trực tiếp.
             </Text>
           </View>
-          <PrimaryButton label="Làm mới dữ liệu" onPress={onRefresh} />
+          <View style={styles.headerActions}>
+            <PrimaryButton label="Thêm lớp học mới" onPress={openCreateModal} />
+            <PrimaryButton label="Làm mới dữ liệu" onPress={onRefresh} variant="secondary" />
+          </View>
         </View>
 
         <SurfaceCard>
@@ -315,6 +366,70 @@ export function ClassesManagementScreen(_: Props) {
           </View>
         </View>
       </Modal>
+
+      <Modal visible={createModalVisible} animationType="slide" transparent>
+        <View style={styles.modalOverlay}>
+          <View style={styles.modalContent}>
+            <Text style={styles.modalTitle}>Tạo lớp học mới</Text>
+            <Text style={styles.modalSubtitle}>Nhập thông tin lớp và chọn giáo viên chủ nhiệm.</Text>
+
+            <TextInput
+              style={styles.input}
+              placeholder="Tên lớp (ví dụ: 1A1)"
+              placeholderTextColor={theme.colors.textSoft}
+              value={createForm.className}
+              onChangeText={(text) => setCreateForm((prev) => ({ ...prev, className: text }))}
+            />
+
+            <TextInput
+              style={styles.input}
+              placeholder="Khối (ví dụ: 1)"
+              placeholderTextColor={theme.colors.textSoft}
+              value={createForm.grade}
+              onChangeText={(text) => setCreateForm((prev) => ({ ...prev, grade: text }))}
+            />
+
+            <TextInput
+              style={styles.input}
+              placeholder="Năm học (ví dụ: 2026-2027)"
+              placeholderTextColor={theme.colors.textSoft}
+              value={createForm.academicYear}
+              onChangeText={(text) => setCreateForm((prev) => ({ ...prev, academicYear: text }))}
+            />
+
+            <Text style={styles.formLabel}>Giáo viên chủ nhiệm</Text>
+            <ScrollView style={styles.teacherList} contentContainerStyle={styles.teacherListContent}>
+              {teachers.map((teacher) => {
+                const isSelected = createForm.teacherId === teacher.id;
+                return (
+                  <TouchableOpacity
+                    key={teacher.id}
+                    style={[styles.teacherItem, isSelected && styles.teacherItemSelected]}
+                    onPress={() => setCreateForm((prev) => ({ ...prev, teacherId: teacher.id }))}
+                  >
+                    <View style={styles.teacherText}>
+                      <Text style={styles.teacherName}>{teacher.fullName}</Text>
+                      <Text style={styles.teacherEmail}>{teacher.email}</Text>
+                    </View>
+                    <Feather
+                      name={isSelected ? "check-circle" : "circle"}
+                      size={18}
+                      color={isSelected ? theme.colors.primary : theme.colors.textSoft}
+                    />
+                  </TouchableOpacity>
+                );
+              })}
+            </ScrollView>
+
+            <ErrorToast message={createError} />
+
+            <View style={styles.modalActions}>
+              <PrimaryButton label="Hủy" onPress={() => setCreateModalVisible(false)} variant="secondary" />
+              <PrimaryButton label="Tạo lớp" onPress={handleCreateClass} />
+            </View>
+          </View>
+        </View>
+      </Modal>
     </Screen>
   );
 }
@@ -339,6 +454,12 @@ const styles = StyleSheet.create({
     color: theme.colors.textSoft,
     fontSize: 15,
     marginTop: 6,
+  },
+  headerActions: {
+    flexDirection: "row",
+    gap: theme.spacing.sm,
+    alignItems: "center",
+    flexWrap: "wrap",
   },
   toolbar: {
     flexDirection: "row",
@@ -475,6 +596,19 @@ const styles = StyleSheet.create({
     color: theme.colors.text,
     fontSize: 22,
     fontWeight: "800",
+  },
+  input: {
+    backgroundColor: theme.colors.surface,
+    color: theme.colors.text,
+    borderRadius: theme.radius.sm,
+    padding: theme.spacing.md,
+    fontSize: 16,
+  },
+  formLabel: {
+    color: theme.colors.text,
+    fontSize: 14,
+    fontWeight: "700",
+    marginTop: 4,
   },
   modalSubtitle: {
     color: theme.colors.textSoft,

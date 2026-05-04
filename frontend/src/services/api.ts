@@ -222,6 +222,16 @@ export const api = {
     const suffix = teacherOnly ? "?teacherOnly=true" : "";
     return request<{ classes: ClassItem[] }>(`/classes${suffix}`, { token });
   },
+  createClass(
+    token: string,
+    data: { className: string; grade: string; academicYear: string; teacherId?: string }
+  ) {
+    return request<{ class: ClassItem }>("/classes", {
+      method: "POST",
+      token,
+      body: data,
+    });
+  },
   updateClass(token: string, classId: string, data: { teacherId?: string }) {
     return request<{ class: ClassItem }>(`/classes/${classId}`, {
       method: "PUT",

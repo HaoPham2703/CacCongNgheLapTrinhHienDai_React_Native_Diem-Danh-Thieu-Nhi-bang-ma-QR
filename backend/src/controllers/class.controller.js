@@ -2,6 +2,7 @@ const mongoose = require("mongoose");
 
 const ClassModel = require("../models/Class");
 const Student = require("../models/Student");
+const { User } = require("../models/User");
 const createHttpError = require("../utils/httpError");
 
 function mapClass(classDoc, stats = {}) {
@@ -115,17 +116,37 @@ async function getClassById(request, response, next) {
 
 async function createClass(request, response, next) {
   try {
-    const { className, grade, academicYear } = request.body;
+    const { className, grade, academicYear, teacherId } = request.body;
 
     if (!className || !grade || !academicYear) {
       throw createHttpError(400, "className, grade, and academicYear are required");
+    }
+
+    let assignedTeacherId = request.authUser.id;
+
+    if (request.authUser.role === "admin") {
+      if (!teacherId || !mongoose.Types.ObjectId.isValid(teacherId)) {
+        throw createHttpError(400, "Valid teacherId is required for admin");
+      }
+
+      const teacher = await User.findOne({
+        _id: teacherId,
+        role: "teacher",
+        isActive: true,
+      });
+
+      if (!teacher) {
+        throw createHttpError(404, "Teacher not found");
+      }
+
+      assignedTeacherId = teacher.id;
     }
 
     const classDoc = await ClassModel.create({
       className: className.trim(),
       grade: grade.trim(),
       academicYear: academicYear.trim(),
-      teacherId: request.authUser.id,
+      teacherId: assignedTeacherId,
     });
 
     response.status(201).json({
