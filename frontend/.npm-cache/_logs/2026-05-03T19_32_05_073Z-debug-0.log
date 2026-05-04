@@ -1,0 +1,1124 @@
+0 verbose cli C:\nvm4w\nodejs\node.exe C:\nvm4w\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.9.3
+2 info using node@v22.20.0
+3 silly config load:file:C:\Users\HaoPham\AppData\Local\nvm\v22.20.0\node_modules\npm\npmrc
+4 silly config load:file:D:\Project\DiemDanhTN\frontend\.npmrc
+5 silly config load:file:C:\Users\HaoPham\.npmrc
+6 silly config load:file:D:\npm\global\etc\npmrc
+7 verbose title npm install
+8 verbose argv "install" "--cache" ".npm-cache"
+9 verbose logfile logs-max:10 dir:D:\Project\DiemDanhTN\frontend\.npm-cache\_logs\2026-05-03T19_32_05_073Z-
+10 verbose logfile D:\Project\DiemDanhTN\frontend\.npm-cache\_logs\2026-05-03T19_32_05_073Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+13 silly idealTree buildDeps
+14 silly fetch manifest @expo/metro-runtime@~6.1.2
+15 silly packumentCache full:https://registry.npmjs.org/@expo%2fmetro-runtime cache-miss
+16 http fetch GET 200 https://registry.npmjs.org/@expo%2fmetro-runtime 385ms (cache miss)
+17 silly packumentCache full:https://registry.npmjs.org/@expo%2fmetro-runtime set size:undefined disposed:false
+18 silly fetch manifest expo@~54.0.0
+19 silly packumentCache full:https://registry.npmjs.org/expo cache-miss
+20 http fetch GET 200 https://registry.npmjs.org/npm 661ms
+21 http fetch GET 200 https://registry.npmjs.org/expo 266ms (cache miss)
+22 silly packumentCache full:https://registry.npmjs.org/expo set size:undefined disposed:false
+23 silly fetch manifest @expo/dom-webview@*
+24 silly packumentCache full:https://registry.npmjs.org/@expo%2fdom-webview cache-miss
+25 http fetch GET 200 https://registry.npmjs.org/@expo%2fdom-webview 262ms (cache miss)
+26 silly packumentCache full:https://registry.npmjs.org/@expo%2fdom-webview set size:undefined disposed:false
+27 silly fetch manifest react@19.1.0
+28 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+29 http fetch GET 200 https://registry.npmjs.org/react 227ms (cache miss)
+30 silly packumentCache full:https://registry.npmjs.org/react set size:undefined disposed:false
+31 silly fetch manifest react-native@0.81.5
+32 silly packumentCache full:https://registry.npmjs.org/react-native cache-miss
+33 http fetch GET 200 https://registry.npmjs.org/react-native 299ms (cache miss)
+34 silly packumentCache full:https://registry.npmjs.org/react-native set size:undefined disposed:false
+35 silly fetch manifest @types/react@~19.1.10
+36 silly packumentCache full:https://registry.npmjs.org/@types%2freact cache-miss
+37 http fetch GET 200 https://registry.npmjs.org/@types%2freact 136ms (cache miss)
+38 silly packumentCache full:https://registry.npmjs.org/@types%2freact set size:undefined disposed:false
+39 silly fetch manifest react-native-webview@*
+40 silly packumentCache full:https://registry.npmjs.org/react-native-webview cache-miss
+41 http fetch GET 200 https://registry.npmjs.org/react-native-webview 100ms (cache miss)
+42 silly packumentCache full:https://registry.npmjs.org/react-native-webview set size:undefined disposed:false
+43 silly fetch manifest react-dom@19.1.0
+44 silly packumentCache full:https://registry.npmjs.org/react-dom cache-miss
+45 http fetch GET 200 https://registry.npmjs.org/react-dom 222ms (cache miss)
+46 silly packumentCache full:https://registry.npmjs.org/react-dom set size:undefined disposed:false
+47 silly fetch manifest expo-camera@~17.0.10
+48 silly packumentCache full:https://registry.npmjs.org/expo-camera cache-miss
+49 http fetch GET 200 https://registry.npmjs.org/expo-camera 99ms (cache miss)
+50 silly packumentCache full:https://registry.npmjs.org/expo-camera set size:undefined disposed:false
+51 silly fetch manifest react-native-web@~0.21.0
+52 silly packumentCache full:https://registry.npmjs.org/react-native-web cache-miss
+53 http fetch GET 200 https://registry.npmjs.org/react-native-web 112ms (cache miss)
+54 silly packumentCache full:https://registry.npmjs.org/react-native-web set size:undefined disposed:false
+55 silly fetch manifest expo-status-bar@~3.0.9
+56 silly packumentCache full:https://registry.npmjs.org/expo-status-bar cache-miss
+57 http fetch GET 200 https://registry.npmjs.org/expo-status-bar 102ms (cache miss)
+58 silly packumentCache full:https://registry.npmjs.org/expo-status-bar set size:undefined disposed:false
+59 silly fetch manifest react-native-gesture-handler@~2.28.0
+60 silly packumentCache full:https://registry.npmjs.org/react-native-gesture-handler cache-miss
+61 http fetch GET 200 https://registry.npmjs.org/react-native-gesture-handler 99ms (cache miss)
+62 silly packumentCache full:https://registry.npmjs.org/react-native-gesture-handler set size:undefined disposed:false
+63 silly fetch manifest react-native-safe-area-context@~5.6.0
+64 silly packumentCache full:https://registry.npmjs.org/react-native-safe-area-context cache-miss
+65 http fetch GET 200 https://registry.npmjs.org/react-native-safe-area-context 92ms (cache miss)
+66 silly packumentCache full:https://registry.npmjs.org/react-native-safe-area-context set size:undefined disposed:false
+67 silly fetch manifest react-native-screens@~4.16.0
+68 silly packumentCache full:https://registry.npmjs.org/react-native-screens cache-miss
+69 http fetch GET 200 https://registry.npmjs.org/react-native-screens 131ms (cache miss)
+70 silly packumentCache full:https://registry.npmjs.org/react-native-screens set size:undefined disposed:false
+71 silly placeDep ROOT @expo/metro-runtime@6.1.2 REPLACE for: classpulse-attendance-frontend@1.0.0 want: ~6.1.2
+72 silly placeDep ROOT @types/react@19.1.17 REPLACE for: classpulse-attendance-frontend@1.0.0 want: ~19.1.10
+73 silly placeDep ROOT expo-camera@17.0.10 REPLACE for: classpulse-attendance-frontend@1.0.0 want: ~17.0.10
+74 silly placeDep ROOT expo-status-bar@3.0.9 REPLACE for: classpulse-attendance-frontend@1.0.0 want: ~3.0.9
+75 silly placeDep ROOT react@19.1.0 REPLACE for: classpulse-attendance-frontend@1.0.0 want: 19.1.0
+76 silly placeDep ROOT react-dom@19.1.0 REPLACE for: classpulse-attendance-frontend@1.0.0 want: 19.1.0
+77 silly placeDep ROOT react-native@0.81.5 REPLACE for: classpulse-attendance-frontend@1.0.0 want: 0.81.5
+78 silly placeDep ROOT react-native-gesture-handler@2.28.0 REPLACE for: classpulse-attendance-frontend@1.0.0 want: ~2.28.0
+79 silly placeDep ROOT react-native-safe-area-context@5.6.2 REPLACE for: classpulse-attendance-frontend@1.0.0 want: ~5.6.0
+80 silly placeDep ROOT react-native-screens@4.16.0 REPLACE for: classpulse-attendance-frontend@1.0.0 want: ~4.16.0
+81 silly placeDep ROOT react-native-web@0.21.2 REPLACE for: classpulse-attendance-frontend@1.0.0 want: ~0.21.0
+82 silly fetch manifest scheduler@^0.26.0
+83 silly packumentCache full:https://registry.npmjs.org/scheduler cache-miss
+84 silly fetch manifest glob@^7.1.1
+85 silly packumentCache full:https://registry.npmjs.org/glob cache-miss
+86 silly fetch manifest scheduler@0.26.0
+87 silly packumentCache full:https://registry.npmjs.org/scheduler cache-miss
+88 silly fetch manifest @react-native/js-polyfills@0.81.5
+89 silly packumentCache full:https://registry.npmjs.org/@react-native%2fjs-polyfills cache-miss
+90 silly fetch manifest @react-native/gradle-plugin@0.81.5
+91 silly packumentCache full:https://registry.npmjs.org/@react-native%2fgradle-plugin cache-miss
+92 silly fetch manifest @react-native/assets-registry@0.81.5
+93 silly packumentCache full:https://registry.npmjs.org/@react-native%2fassets-registry cache-miss
+94 silly fetch manifest @react-native/normalize-colors@0.81.5
+95 silly packumentCache full:https://registry.npmjs.org/@react-native%2fnormalize-colors cache-miss
+96 silly fetch manifest @react-native/virtualized-lists@0.81.5
+97 silly packumentCache full:https://registry.npmjs.org/@react-native%2fvirtualized-lists cache-miss
+98 silly fetch manifest @react-native/community-cli-plugin@0.81.5
+99 silly packumentCache full:https://registry.npmjs.org/@react-native%2fcommunity-cli-plugin cache-miss
+100 http fetch GET 200 https://registry.npmjs.org/glob 99ms (cache miss)
+101 silly packumentCache full:https://registry.npmjs.org/glob set size:undefined disposed:false
+102 http fetch GET 200 https://registry.npmjs.org/scheduler 222ms (cache miss)
+103 silly packumentCache full:https://registry.npmjs.org/scheduler set size:undefined disposed:false
+104 http fetch GET 200 https://registry.npmjs.org/@react-native%2fgradle-plugin 400ms (cache miss)
+105 silly packumentCache full:https://registry.npmjs.org/@react-native%2fgradle-plugin set size:undefined disposed:false
+106 http fetch GET 200 https://registry.npmjs.org/@react-native%2fassets-registry 419ms (cache miss)
+107 silly packumentCache full:https://registry.npmjs.org/@react-native%2fassets-registry set size:undefined disposed:false
+108 http fetch GET 200 https://registry.npmjs.org/@react-native%2fnormalize-colors 429ms (cache miss)
+109 silly packumentCache full:https://registry.npmjs.org/@react-native%2fnormalize-colors set size:undefined disposed:false
+110 http fetch GET 200 https://registry.npmjs.org/@react-native%2fjs-polyfills 442ms (cache miss)
+111 silly packumentCache full:https://registry.npmjs.org/@react-native%2fjs-polyfills set size:undefined disposed:false
+112 http fetch GET 200 https://registry.npmjs.org/@react-native%2fcommunity-cli-plugin 451ms (cache miss)
+113 silly packumentCache full:https://registry.npmjs.org/@react-native%2fcommunity-cli-plugin set size:undefined disposed:false
+114 http fetch GET 200 https://registry.npmjs.org/@react-native%2fvirtualized-lists 471ms (cache miss)
+115 silly packumentCache full:https://registry.npmjs.org/@react-native%2fvirtualized-lists set size:undefined disposed:false
+116 http fetch GET 200 https://registry.npmjs.org/scheduler 527ms (cache miss)
+117 silly packumentCache full:https://registry.npmjs.org/scheduler set size:undefined disposed:false
+118 silly placeDep ROOT scheduler@0.26.0 OK for: react-dom@19.1.0 want: ^0.26.0
+119 silly fetch manifest @types/react@^19.1.0
+120 silly packumentCache full:https://registry.npmjs.org/@types%2freact cache-miss
+121 http cache https://registry.npmjs.org/@types%2freact 21ms (cache hit)
+122 silly packumentCache full:https://registry.npmjs.org/@types%2freact set size:2588964 disposed:false
+123 silly fetch manifest react@^19.1.0
+124 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+125 http cache https://registry.npmjs.org/react 13ms (cache hit)
+126 silly packumentCache full:https://registry.npmjs.org/react set size:6633619 disposed:false
+127 silly fetch manifest react-native@*
+128 silly packumentCache full:https://registry.npmjs.org/react-native cache-miss
+129 http cache https://registry.npmjs.org/react-native 28ms (cache hit)
+130 silly packumentCache full:https://registry.npmjs.org/react-native set size:15216565 disposed:false
+131 silly fetch manifest @react-native/jest-preset@0.85.2
+132 silly packumentCache full:https://registry.npmjs.org/@react-native%2fjest-preset cache-miss
+133 http fetch GET 200 https://registry.npmjs.org/@react-native%2fjest-preset 92ms (cache miss)
+134 silly packumentCache full:https://registry.npmjs.org/@react-native%2fjest-preset set size:undefined disposed:false
+135 silly fetch manifest @react-native-community/cli@*
+136 silly packumentCache full:https://registry.npmjs.org/@react-native-community%2fcli cache-miss
+137 http fetch GET 200 https://registry.npmjs.org/@react-native-community%2fcli 115ms (cache miss)
+138 silly packumentCache full:https://registry.npmjs.org/@react-native-community%2fcli set size:undefined disposed:false
+139 silly fetch manifest @react-native/metro-config@*
+140 silly packumentCache full:https://registry.npmjs.org/@react-native%2fmetro-config cache-miss
+141 http fetch GET 200 https://registry.npmjs.org/@react-native%2fmetro-config 158ms (cache miss)
+142 silly packumentCache full:https://registry.npmjs.org/@react-native%2fmetro-config set size:undefined disposed:false
+143 silly placeDep ROOT @react-native/assets-registry@0.81.5 OK for: react-native@0.81.5 want: 0.81.5
+144 silly placeDep ROOT @react-native/community-cli-plugin@0.81.5 OK for: react-native@0.81.5 want: 0.81.5
+145 silly placeDep ROOT @react-native/gradle-plugin@0.81.5 OK for: react-native@0.81.5 want: 0.81.5
+146 silly placeDep ROOT @react-native/js-polyfills@0.81.5 OK for: react-native@0.81.5 want: 0.81.5
+147 silly placeDep ROOT @react-native/normalize-colors@0.81.5 OK for: react-native@0.81.5 want: 0.81.5
+148 silly placeDep node_modules/react-native @react-native/virtualized-lists@0.81.5 CONFLICT for: react-native@0.81.5 want: 0.81.5
+149 silly placeDep node_modules/react-native glob@7.2.3 OK for: react-native@0.81.5 want: ^7.1.1
+150 silly fetch manifest semver@^7.1.3
+151 silly packumentCache full:https://registry.npmjs.org/semver cache-miss
+152 silly fetch manifest @react-native/dev-middleware@0.81.5
+153 silly packumentCache full:https://registry.npmjs.org/@react-native%2fdev-middleware cache-miss
+154 silly fetch manifest minimatch@^3.1.1
+155 silly packumentCache full:https://registry.npmjs.org/minimatch cache-miss
+156 http fetch GET 200 https://registry.npmjs.org/semver 80ms (cache miss)
+157 silly packumentCache full:https://registry.npmjs.org/semver set size:undefined disposed:false
+158 http fetch GET 200 https://registry.npmjs.org/minimatch 91ms (cache miss)
+159 silly packumentCache full:https://registry.npmjs.org/minimatch set size:undefined disposed:false
+160 http fetch GET 200 https://registry.npmjs.org/@react-native%2fdev-middleware 162ms (cache miss)
+161 silly packumentCache full:https://registry.npmjs.org/@react-native%2fdev-middleware set size:undefined disposed:false
+162 silly placeDep ROOT @react-native/dev-middleware@0.81.5 OK for: @react-native/community-cli-plugin@0.81.5 want: 0.81.5
+163 silly placeDep node_modules/@react-native/community-cli-plugin semver@7.7.4 OK for: @react-native/community-cli-plugin@0.81.5 want: ^7.1.3
+164 silly fetch manifest ws@^6.2.3
+165 silly packumentCache full:https://registry.npmjs.org/ws cache-miss
+166 silly fetch manifest @react-native/debugger-frontend@0.81.5
+167 silly packumentCache full:https://registry.npmjs.org/@react-native%2fdebugger-frontend cache-miss
+168 http fetch GET 200 https://registry.npmjs.org/ws 94ms (cache miss)
+169 silly packumentCache full:https://registry.npmjs.org/ws set size:undefined disposed:false
+170 http fetch GET 200 https://registry.npmjs.org/@react-native%2fdebugger-frontend 165ms (cache miss)
+171 silly packumentCache full:https://registry.npmjs.org/@react-native%2fdebugger-frontend set size:undefined disposed:false
+172 silly placeDep ROOT @react-native/debugger-frontend@0.81.5 OK for: @react-native/dev-middleware@0.81.5 want: 0.81.5
+173 silly placeDep node_modules/@react-native/dev-middleware ws@6.2.3 OK for: @react-native/dev-middleware@0.81.5 want: ^6.2.3
+174 silly placeDep node_modules/react-native minimatch@3.1.5 OK for: glob@7.2.3 want: ^3.1.1
+175 silly fetch manifest brace-expansion@^1.1.7
+176 silly packumentCache full:https://registry.npmjs.org/brace-expansion cache-miss
+177 http fetch GET 200 https://registry.npmjs.org/brace-expansion 82ms (cache miss)
+178 silly packumentCache full:https://registry.npmjs.org/brace-expansion set size:undefined disposed:false
+179 silly placeDep node_modules/react-native brace-expansion@1.1.14 OK for: minimatch@3.1.5 want: ^1.1.7
+180 silly fetch manifest balanced-match@^1.0.0
+181 silly packumentCache full:https://registry.npmjs.org/balanced-match cache-miss
+182 http fetch GET 200 https://registry.npmjs.org/balanced-match 79ms (cache miss)
+183 silly packumentCache full:https://registry.npmjs.org/balanced-match set size:undefined disposed:false
+184 silly placeDep node_modules/react-native balanced-match@1.0.2 OK for: brace-expansion@1.1.14 want: ^1.0.0
+185 silly reify mark retired [
+185 silly reify   'D:\\Project\\DiemDanhTN\\frontend\\node_modules\\@expo\\metro-runtime'
+185 silly reify ]
+186 silly reify mark retired [
+186 silly reify   'D:\\Project\\DiemDanhTN\\frontend\\node_modules\\@expo\\prebuild-config\\node_modules\\@react-native\\normalize-colors'
+186 silly reify ]
+187 silly reify mark retired [
+187 silly reify   'D:\\Project\\DiemDanhTN\\frontend\\node_modules\\@react-native\\assets-registry'
+187 silly reify ]
+188 silly reify mark retired [
+188 silly reify   'D:\\Project\\DiemDanhTN\\frontend\\node_modules\\@react-native\\community-cli-plugin'
+188 silly reify ]
+189 silly reify mark retired [
+189 silly reify   'D:\\Project\\DiemDanhTN\\frontend\\node_modules\\@react-native\\debugger-frontend'
+189 silly reify ]
+190 silly reify mark retired [
+190 silly reify   'D:\\Project\\DiemDanhTN\\frontend\\node_modules\\@react-native\\dev-middleware'
+190 silly reify ]
+191 silly reify mark retired [
+191 silly reify   'D:\\Project\\DiemDanhTN\\frontend\\node_modules\\@react-native\\gradle-plugin'
+191 silly reify ]
+192 silly reify mark retired [
+192 silly reify   'D:\\Project\\DiemDanhTN\\frontend\\node_modules\\@react-native\\js-polyfills'
+192 silly reify ]
+193 silly reify mark retired [
+193 silly reify   'D:\\Project\\DiemDanhTN\\frontend\\node_modules\\@react-native\\normalize-colors'
+193 silly reify ]
+194 silly reify mark retired [ 'D:\\Project\\DiemDanhTN\\frontend\\node_modules\\@types\\react' ]
+195 silly reify mark retired [ 'D:\\Project\\DiemDanhTN\\frontend\\node_modules\\caller-callsite' ]
+196 silly reify mark retired [ 'D:\\Project\\DiemDanhTN\\frontend\\node_modules\\caller-path' ]
+197 silly reify mark retired [ 'D:\\Project\\DiemDanhTN\\frontend\\node_modules\\callsites' ]
+198 silly reify mark retired [ 'D:\\Project\\DiemDanhTN\\frontend\\node_modules\\cosmiconfig' ]
+199 silly reify mark retired [ 'D:\\Project\\DiemDanhTN\\frontend\\node_modules\\error-ex' ]
+200 silly reify mark retired [
+200 silly reify   'D:\\Project\\DiemDanhTN\\frontend\\node_modules\\expo\\node_modules\\@react-native\\debugger-frontend'
+200 silly reify ]
+201 silly reify mark retired [
+201 silly reify   'D:\\Project\\DiemDanhTN\\frontend\\node_modules\\expo\\node_modules\\@react-native\\dev-middleware'
+201 silly reify ]
+202 silly reify mark retired [ 'D:\\Project\\DiemDanhTN\\frontend\\node_modules\\expo-camera' ]
+203 silly reify mark retired [ 'D:\\Project\\DiemDanhTN\\frontend\\node_modules\\expo-status-bar' ]
+204 silly reify mark retired [ 'D:\\Project\\DiemDanhTN\\frontend\\node_modules\\import-fresh' ]
+205 silly reify mark retired [ 'D:\\Project\\DiemDanhTN\\frontend\\node_modules\\is-directory' ]
+206 silly reify mark retired [
+206 silly reify   'D:\\Project\\DiemDanhTN\\frontend\\node_modules\\json-parse-better-errors'
+206 silly reify ]
+207 silly reify mark retired [ 'D:\\Project\\DiemDanhTN\\frontend\\node_modules\\parse-json' ]
+208 silly reify mark retired [ 'D:\\Project\\DiemDanhTN\\frontend\\node_modules\\react' ]
+209 silly reify mark retired [ 'D:\\Project\\DiemDanhTN\\frontend\\node_modules\\react-dom' ]
+210 silly reify mark retired [
+210 silly reify   'D:\\Project\\DiemDanhTN\\frontend\\node_modules\\react-native',
+210 silly reify   'D:\\Project\\DiemDanhTN\\frontend\\node_modules\\.bin\\react-native',
+210 silly reify   'D:\\Project\\DiemDanhTN\\frontend\\node_modules\\.bin\\react-native.cmd',
+210 silly reify   'D:\\Project\\DiemDanhTN\\frontend\\node_modules\\.bin\\react-native.ps1'
+210 silly reify ]
+211 silly reify mark retired [
+211 silly reify   'D:\\Project\\DiemDanhTN\\frontend\\node_modules\\react-native-edge-to-edge'
+211 silly reify ]
+212 silly reify mark retired [
+212 silly reify   'D:\\Project\\DiemDanhTN\\frontend\\node_modules\\react-native-gesture-handler'
+212 silly reify ]
+213 silly reify mark retired [
+213 silly reify   'D:\\Project\\DiemDanhTN\\frontend\\node_modules\\react-native-safe-area-context'
+213 silly reify ]
+214 silly reify mark retired [
+214 silly reify   'D:\\Project\\DiemDanhTN\\frontend\\node_modules\\react-native-screens'
+214 silly reify ]
+215 silly reify mark retired [ 'D:\\Project\\DiemDanhTN\\frontend\\node_modules\\react-native-web' ]
+216 silly reify mark retired [ 'D:\\Project\\DiemDanhTN\\frontend\\node_modules\\scheduler' ]
+217 silly reify moves {
+217 silly reify   'D:\\Project\\DiemDanhTN\\frontend\\node_modules\\@expo\\metro-runtime': 'D:\\Project\\DiemDanhTN\\frontend\\node_modules\\@expo\\.metro-runtime-erwi2ydz',
+217 silly reify   'D:\\Project\\DiemDanhTN\\frontend\\node_modules\\@expo\\prebuild-config\\node_modules\\@react-native\\normalize-colors': 'D:\\Project\\DiemDanhTN\\frontend\\node_modules\\@expo\\prebuild-config\\node_modules\\@react-native\\.normalize-colors-1s6rjpU9',
+217 silly reify   'D:\\Project\\DiemDanhTN\\frontend\\node_modules\\@react-native\\assets-registry': 'D:\\Project\\DiemDanhTN\\frontend\\node_modules\\@react-native\\.assets-registry-MAbiAvIZ',
+217 silly reify   'D:\\Project\\DiemDanhTN\\frontend\\node_modules\\@react-native\\community-cli-plugin': 'D:\\Project\\DiemDanhTN\\frontend\\node_modules\\@react-native\\.community-cli-plugin-HtpPehch',
+217 silly reify   'D:\\Project\\DiemDanhTN\\frontend\\node_modules\\@react-native\\debugger-frontend': 'D:\\Project\\DiemDanhTN\\frontend\\node_modules\\@react-native\\.debugger-frontend-ieOZwfeH',
+217 silly reify   'D:\\Project\\DiemDanhTN\\frontend\\node_modules\\@react-native\\dev-middleware': 'D:\\Project\\DiemDanhTN\\frontend\\node_modules\\@react-native\\.dev-middleware-ExHCjKYs',
+217 silly reify   'D:\\Project\\DiemDanhTN\\frontend\\node_modules\\@react-native\\gradle-plugin': 'D:\\Project\\DiemDanhTN\\frontend\\node_modules\\@react-native\\.gradle-plugin-QNR7BDr6',
+217 silly reify   'D:\\Project\\DiemDanhTN\\frontend\\node_modules\\@react-native\\js-polyfills': 'D:\\Project\\DiemDanhTN\\frontend\\node_modules\\@react-native\\.js-polyfills-tPbL0hGm',
+217 silly reify   'D:\\Project\\DiemDanhTN\\frontend\\node_modules\\@react-native\\normalize-colors': 'D:\\Project\\DiemDanhTN\\frontend\\node_modules\\@react-native\\.normalize-colors-9fd0bV0D',
+217 silly reify   'D:\\Project\\DiemDanhTN\\frontend\\node_modules\\@types\\react': 'D:\\Project\\DiemDanhTN\\frontend\\node_modules\\@types\\.react-AN4GEFl9',
+217 silly reify   'D:\\Project\\DiemDanhTN\\frontend\\node_modules\\caller-callsite': 'D:\\Project\\DiemDanhTN\\frontend\\node_modules\\.caller-callsite-mzfqYjDf',
+217 silly reify   'D:\\Project\\DiemDanhTN\\frontend\\node_modules\\caller-path': 'D:\\Project\\DiemDanhTN\\frontend\\node_modules\\.caller-path-GCmctuml',
+217 silly reify   'D:\\Project\\DiemDanhTN\\frontend\\node_modules\\callsites': 'D:\\Project\\DiemDanhTN\\frontend\\node_modules\\.callsites-xd3lbD4c',
+217 silly reify   'D:\\Project\\DiemDanhTN\\frontend\\node_modules\\cosmiconfig': 'D:\\Project\\DiemDanhTN\\frontend\\node_modules\\.cosmiconfig-51elnpMc',
+217 silly reify   'D:\\Project\\DiemDanhTN\\frontend\\node_modules\\error-ex': 'D:\\Project\\DiemDanhTN\\frontend\\node_modules\\.error-ex-8c2uawE3',
+217 silly reify   'D:\\Project\\DiemDanhTN\\frontend\\node_modules\\expo\\node_modules\\@react-native\\debugger-frontend': 'D:\\Project\\DiemDanhTN\\frontend\\node_modules\\expo\\node_modules\\@react-native\\.debugger-frontend-KdIX878Y',
+217 silly reify   'D:\\Project\\DiemDanhTN\\frontend\\node_modules\\expo\\node_modules\\@react-native\\dev-middleware': 'D:\\Project\\DiemDanhTN\\frontend\\node_modules\\expo\\node_modules\\@react-native\\.dev-middleware-A0ZCgZmc',
+217 silly reify   'D:\\Project\\DiemDanhTN\\frontend\\node_modules\\expo-camera': 'D:\\Project\\DiemDanhTN\\frontend\\node_modules\\.expo-camera-KeMytx18',
+217 silly reify   'D:\\Project\\DiemDanhTN\\frontend\\node_modules\\expo-status-bar': 'D:\\Project\\DiemDanhTN\\frontend\\node_modules\\.expo-status-bar-tgFOZsGe',
+217 silly reify   'D:\\Project\\DiemDanhTN\\frontend\\node_modules\\import-fresh': 'D:\\Project\\DiemDanhTN\\frontend\\node_modules\\.import-fresh-4glP1DTF',
+217 silly reify   'D:\\Project\\DiemDanhTN\\frontend\\node_modules\\is-directory': 'D:\\Project\\DiemDanhTN\\frontend\\node_modules\\.is-directory-vg3r6web',
+217 silly reify   'D:\\Project\\DiemDanhTN\\frontend\\node_modules\\json-parse-better-errors': 'D:\\Project\\DiemDanhTN\\frontend\\node_modules\\.json-parse-better-errors-I1C3d94J',
+217 silly reify   'D:\\Project\\DiemDanhTN\\frontend\\node_modules\\parse-json': 'D:\\Project\\DiemDanhTN\\frontend\\node_modules\\.parse-json-fU2GjUXh',
+217 silly reify   'D:\\Project\\DiemDanhTN\\frontend\\node_modules\\react': 'D:\\Project\\DiemDanhTN\\frontend\\node_modules\\.react-GlmaiFvm',
+217 silly reify   'D:\\Project\\DiemDanhTN\\frontend\\node_modules\\react-dom': 'D:\\Project\\DiemDanhTN\\frontend\\node_modules\\.react-dom-NcCAnlV3',
+217 silly reify   'D:\\Project\\DiemDanhTN\\frontend\\node_modules\\react-native': 'D:\\Project\\DiemDanhTN\\frontend\\node_modules\\.react-native-VNAJz14o',
+217 silly reify   'D:\\Project\\DiemDanhTN\\frontend\\node_modules\\.bin\\react-native': 'D:\\Project\\DiemDanhTN\\frontend\\node_modules\\.bin\\.react-native-uiC0AMke',
+217 silly reify   'D:\\Project\\DiemDanhTN\\frontend\\node_modules\\.bin\\react-native.cmd': 'D:\\Project\\DiemDanhTN\\frontend\\node_modules\\.bin\\.react-native.cmd-IB1SmaBH',
+217 silly reify   'D:\\Project\\DiemDanhTN\\frontend\\node_modules\\.bin\\react-native.ps1': 'D:\\Project\\DiemDanhTN\\frontend\\node_modules\\.bin\\.react-native.ps1-bb04DAgv',
+217 silly reify   'D:\\Project\\DiemDanhTN\\frontend\\node_modules\\react-native-edge-to-edge': 'D:\\Project\\DiemDanhTN\\frontend\\node_modules\\.react-native-edge-to-edge-k6EbncGY',
+217 silly reify   'D:\\Project\\DiemDanhTN\\frontend\\node_modules\\react-native-gesture-handler': 'D:\\Project\\DiemDanhTN\\frontend\\node_modules\\.react-native-gesture-handler-6LLm36Uu',
+217 silly reify   'D:\\Project\\DiemDanhTN\\frontend\\node_modules\\react-native-safe-area-context': 'D:\\Project\\DiemDanhTN\\frontend\\node_modules\\.react-native-safe-area-context-04fw5QTb',
+217 silly reify   'D:\\Project\\DiemDanhTN\\frontend\\node_modules\\react-native-screens': 'D:\\Project\\DiemDanhTN\\frontend\\node_modules\\.react-native-screens-2tAZF1hx',
+217 silly reify   'D:\\Project\\DiemDanhTN\\frontend\\node_modules\\react-native-web': 'D:\\Project\\DiemDanhTN\\frontend\\node_modules\\.react-native-web-jbFMxCv9',
+217 silly reify   'D:\\Project\\DiemDanhTN\\frontend\\node_modules\\scheduler': 'D:\\Project\\DiemDanhTN\\frontend\\node_modules\\.scheduler-xcmn82WZ'
+217 silly reify }
+218 silly audit bulk request {
+218 silly audit   '@0no-co/graphql.web': [ '1.2.0' ],
+218 silly audit   '@babel/code-frame': [ '7.29.0', '7.10.4' ],
+218 silly audit   '@babel/compat-data': [ '7.29.3' ],
+218 silly audit   '@babel/core': [ '7.29.0' ],
+218 silly audit   '@babel/generator': [ '7.29.1' ],
+218 silly audit   '@babel/helper-annotate-as-pure': [ '7.27.3' ],
+218 silly audit   '@babel/helper-compilation-targets': [ '7.28.6' ],
+218 silly audit   '@babel/helper-create-class-features-plugin': [ '7.29.3' ],
+218 silly audit   '@babel/helper-create-regexp-features-plugin': [ '7.28.5' ],
+218 silly audit   '@babel/helper-define-polyfill-provider': [ '0.6.8' ],
+218 silly audit   '@babel/helper-globals': [ '7.28.0' ],
+218 silly audit   '@babel/helper-member-expression-to-functions': [ '7.28.5' ],
+218 silly audit   '@babel/helper-module-imports': [ '7.28.6' ],
+218 silly audit   '@babel/helper-module-transforms': [ '7.28.6' ],
+218 silly audit   '@babel/helper-optimise-call-expression': [ '7.27.1' ],
+218 silly audit   '@babel/helper-plugin-utils': [ '7.28.6' ],
+218 silly audit   '@babel/helper-remap-async-to-generator': [ '7.27.1' ],
+218 silly audit   '@babel/helper-replace-supers': [ '7.28.6' ],
+218 silly audit   '@babel/helper-skip-transparent-expression-wrappers': [ '7.27.1' ],
+218 silly audit   '@babel/helper-string-parser': [ '7.27.1' ],
+218 silly audit   '@babel/helper-validator-identifier': [ '7.28.5' ],
+218 silly audit   '@babel/helper-validator-option': [ '7.27.1' ],
+218 silly audit   '@babel/helper-wrap-function': [ '7.28.6' ],
+218 silly audit   '@babel/helpers': [ '7.29.2' ],
+218 silly audit   '@babel/highlight': [ '7.25.9' ],
+218 silly audit   'ansi-styles': [ '3.2.1', '4.3.0', '5.2.0' ],
+218 silly audit   chalk: [ '2.4.2', '4.1.2' ],
+218 silly audit   'color-convert': [ '1.9.3', '2.0.1' ],
+218 silly audit   'color-name': [ '1.1.3', '1.1.4' ],
+218 silly audit   'escape-string-regexp': [ '1.0.5', '4.0.0', '2.0.0' ],
+218 silly audit   'has-flag': [ '3.0.0', '4.0.0' ],
+218 silly audit   'supports-color': [ '5.5.0', '8.1.1', '7.2.0' ],
+218 silly audit   '@babel/parser': [ '7.29.3' ],
+218 silly audit   '@babel/plugin-proposal-decorators': [ '7.29.0' ],
+218 silly audit   '@babel/plugin-proposal-export-default-from': [ '7.27.1' ],
+218 silly audit   '@babel/plugin-syntax-async-generators': [ '7.8.4' ],
+218 silly audit   '@babel/plugin-syntax-bigint': [ '7.8.3' ],
+218 silly audit   '@babel/plugin-syntax-class-properties': [ '7.12.13' ],
+218 silly audit   '@babel/plugin-syntax-class-static-block': [ '7.14.5' ],
+218 silly audit   '@babel/plugin-syntax-decorators': [ '7.28.6' ],
+218 silly audit   '@babel/plugin-syntax-dynamic-import': [ '7.8.3' ],
+218 silly audit   '@babel/plugin-syntax-export-default-from': [ '7.28.6' ],
+218 silly audit   '@babel/plugin-syntax-flow': [ '7.28.6' ],
+218 silly audit   '@babel/plugin-syntax-import-attributes': [ '7.28.6' ],
+218 silly audit   '@babel/plugin-syntax-import-meta': [ '7.10.4' ],
+218 silly audit   '@babel/plugin-syntax-json-strings': [ '7.8.3' ],
+218 silly audit   '@babel/plugin-syntax-jsx': [ '7.28.6' ],
+218 silly audit   '@babel/plugin-syntax-logical-assignment-operators': [ '7.10.4' ],
+218 silly audit   '@babel/plugin-syntax-nullish-coalescing-operator': [ '7.8.3' ],
+218 silly audit   '@babel/plugin-syntax-numeric-separator': [ '7.10.4' ],
+218 silly audit   '@babel/plugin-syntax-object-rest-spread': [ '7.8.3' ],
+218 silly audit   '@babel/plugin-syntax-optional-catch-binding': [ '7.8.3' ],
+218 silly audit   '@babel/plugin-syntax-optional-chaining': [ '7.8.3' ],
+218 silly audit   '@babel/plugin-syntax-private-property-in-object': [ '7.14.5' ],
+218 silly audit   '@babel/plugin-syntax-top-level-await': [ '7.14.5' ],
+218 silly audit   '@babel/plugin-syntax-typescript': [ '7.28.6' ],
+218 silly audit   '@babel/plugin-transform-arrow-functions': [ '7.27.1' ],
+218 silly audit   '@babel/plugin-transform-async-generator-functions': [ '7.29.0' ],
+218 silly audit   '@babel/plugin-transform-async-to-generator': [ '7.28.6' ],
+218 silly audit   '@babel/plugin-transform-block-scoping': [ '7.28.6' ],
+218 silly audit   '@babel/plugin-transform-class-properties': [ '7.28.6' ],
+218 silly audit   '@babel/plugin-transform-class-static-block': [ '7.28.6' ],
+218 silly audit   '@babel/plugin-transform-classes': [ '7.28.6' ],
+218 silly audit   '@babel/plugin-transform-computed-properties': [ '7.28.6' ],
+218 silly audit   '@babel/plugin-transform-destructuring': [ '7.28.5' ],
+218 silly audit   '@babel/plugin-transform-export-namespace-from': [ '7.27.1' ],
+218 silly audit   '@babel/plugin-transform-flow-strip-types': [ '7.27.1' ],
+218 silly audit   '@babel/plugin-transform-for-of': [ '7.27.1' ],
+218 silly audit   '@babel/plugin-transform-function-name': [ '7.27.1' ],
+218 silly audit   '@babel/plugin-transform-literals': [ '7.27.1' ],
+218 silly audit   '@babel/plugin-transform-logical-assignment-operators': [ '7.28.6' ],
+218 silly audit   '@babel/plugin-transform-modules-commonjs': [ '7.28.6' ],
+218 silly audit   '@babel/plugin-transform-named-capturing-groups-regex': [ '7.29.0' ],
+218 silly audit   '@babel/plugin-transform-nullish-coalescing-operator': [ '7.28.6' ],
+218 silly audit   '@babel/plugin-transform-numeric-separator': [ '7.28.6' ],
+218 silly audit   '@babel/plugin-transform-object-rest-spread': [ '7.28.6' ],
+218 silly audit   '@babel/plugin-transform-optional-catch-binding': [ '7.28.6' ],
+218 silly audit   '@babel/plugin-transform-optional-chaining': [ '7.28.6' ],
+218 silly audit   '@babel/plugin-transform-parameters': [ '7.27.7' ],
+218 silly audit   '@babel/plugin-transform-private-methods': [ '7.28.6' ],
+218 silly audit   '@babel/plugin-transform-private-property-in-object': [ '7.28.6' ],
+218 silly audit   '@babel/plugin-transform-react-display-name': [ '7.28.0' ],
+218 silly audit   '@babel/plugin-transform-react-jsx': [ '7.28.6' ],
+218 silly audit   '@babel/plugin-transform-react-jsx-development': [ '7.27.1' ],
+218 silly audit   '@babel/plugin-transform-react-jsx-self': [ '7.27.1' ],
+218 silly audit   '@babel/plugin-transform-react-jsx-source': [ '7.27.1' ],
+218 silly audit   '@babel/plugin-transform-react-pure-annotations': [ '7.27.1' ],
+218 silly audit   '@babel/plugin-transform-regenerator': [ '7.29.0' ],
+218 silly audit   '@babel/plugin-transform-runtime': [ '7.29.0' ],
+218 silly audit   '@babel/plugin-transform-shorthand-properties': [ '7.27.1' ],
+218 silly audit   '@babel/plugin-transform-spread': [ '7.28.6' ],
+218 silly audit   '@babel/plugin-transform-sticky-regex': [ '7.27.1' ],
+218 silly audit   '@babel/plugin-transform-typescript': [ '7.28.6' ],
+218 silly audit   '@babel/plugin-transform-unicode-regex': [ '7.27.1' ],
+218 silly audit   '@babel/preset-react': [ '7.28.5' ],
+218 silly audit   '@babel/preset-typescript': [ '7.28.5' ],
+218 silly audit   '@babel/runtime': [ '7.29.2' ],
+218 silly audit   '@babel/template': [ '7.28.6' ],
+218 silly audit   '@babel/traverse': [ '7.29.0' ],
+218 silly audit   '@babel/types': [ '7.29.0' ],
+218 silly audit   '@egjs/hammerjs': [ '2.0.17' ],
+218 silly audit   '@expo/code-signing-certificates': [ '0.0.6' ],
+218 silly audit   '@expo/config': [ '12.0.13' ],
+218 silly audit   '@expo/config-plugins': [ '54.0.4' ],
+218 silly audit   semver: [ '7.7.4', '6.3.1' ],
+218 silly audit   '@expo/config-types': [ '54.0.10' ],
+218 silly audit   '@expo/devcert': [ '1.2.1' ],
+218 silly audit   debug: [ '3.2.7', '2.6.9', '4.4.3' ],
+218 silly audit   '@expo/devtools': [ '0.1.8' ],
+218 silly audit   '@expo/env': [ '2.0.11' ],
+218 silly audit   '@expo/fingerprint': [ '0.15.5' ],
+218 silly audit   '@expo/image-utils': [ '0.8.13' ],
+218 silly audit   '@expo/json-file': [ '10.0.13' ],
+218 silly audit   '@expo/metro': [ '54.2.0' ],
+218 silly audit   '@expo/metro-config': [ '54.0.15' ],
+218 silly audit   '@expo/osascript': [ '2.4.2' ],
+218 silly audit   '@expo/package-manager': [ '1.10.4' ],
+218 silly audit   '@expo/plist': [ '0.4.8' ],
+218 silly audit   '@expo/prebuild-config': [ '54.0.8' ],
+218 silly audit   '@react-native/normalize-colors': [ '0.74.89', '0.81.5' ],
+218 silly audit   '@expo/require-utils': [ '55.0.4' ],
+218 silly audit   '@expo/schema-utils': [ '0.1.8' ],
+218 silly audit   '@expo/sdk-runtime-versions': [ '1.0.0' ],
+218 silly audit   '@expo/spawn-async': [ '1.7.2' ],
+218 silly audit   '@expo/sudo-prompt': [ '9.3.2' ],
+218 silly audit   '@expo/vector-icons': [ '15.1.1' ],
+218 silly audit   '@expo/ws-tunnel': [ '1.0.6' ],
+218 silly audit   '@expo/xcpretty': [ '4.4.3' ],
+218 silly audit   argparse: [ '2.0.1', '1.0.10' ],
+218 silly audit   'js-yaml': [ '4.1.1', '3.14.2' ],
+218 silly audit   '@isaacs/fs-minipass': [ '4.0.1' ],
+218 silly audit   '@isaacs/ttlcache': [ '1.4.1' ],
+218 silly audit   '@istanbuljs/load-nyc-config': [ '1.1.0' ],
+218 silly audit   camelcase: [ '5.3.1', '6.3.0' ],
+218 silly audit   '@istanbuljs/schema': [ '0.1.6' ],
+218 silly audit   '@jest/create-cache-key-function': [ '29.7.0' ],
+218 silly audit   '@jest/environment': [ '29.7.0' ],
+218 silly audit   '@jest/fake-timers': [ '29.7.0' ],
+218 silly audit   '@jest/schemas': [ '29.6.3' ],
+218 silly audit   '@jest/transform': [ '29.7.0' ],
+218 silly audit   '@jest/types': [ '29.6.3' ],
+218 silly audit   '@jridgewell/gen-mapping': [ '0.3.13' ],
+218 silly audit   '@jridgewell/remapping': [ '2.3.5' ],
+218 silly audit   '@jridgewell/resolve-uri': [ '3.1.2' ],
+218 silly audit   '@jridgewell/source-map': [ '0.3.11' ],
+218 silly audit   '@jridgewell/sourcemap-codec': [ '1.5.5' ],
+218 silly audit   '@jridgewell/trace-mapping': [ '0.3.31' ],
+218 silly audit   '@react-native-async-storage/async-storage': [ '2.2.0' ],
+218 silly audit   '@react-native/babel-plugin-codegen': [ '0.81.5' ],
+218 silly audit   '@react-native/babel-preset': [ '0.81.5' ],
+218 silly audit   '@react-native/codegen': [ '0.81.5' ],
+218 silly audit   'balanced-match': [ '1.0.2', '4.0.4' ],
+218 silly audit   'brace-expansion': [ '1.1.14', '5.0.5', '2.1.0' ],
+218 silly audit   glob: [ '7.2.3', '13.0.6' ],
+218 silly audit   minimatch: [ '3.1.5', '9.0.9', '10.2.5' ],
+218 silly audit   metro: [ '0.83.3' ],
+218 silly audit   'metro-babel-transformer': [ '0.83.3' ],
+218 silly audit   'metro-cache': [ '0.83.3' ],
+218 silly audit   'metro-cache-key': [ '0.83.3' ],
+218 silly audit   'metro-config': [ '0.83.3' ],
+218 silly audit   'metro-core': [ '0.83.3' ],
+218 silly audit   'metro-file-map': [ '0.83.3' ],
+218 silly audit   ms: [ '2.0.0', '2.1.3' ],
+218 silly audit   'metro-minify-terser': [ '0.83.3' ],
+218 silly audit   'metro-resolver': [ '0.83.3' ],
+218 silly audit   'metro-runtime': [ '0.83.3' ],
+218 silly audit   'metro-source-map': [ '0.83.3' ],
+218 silly audit   'metro-symbolicate': [ '0.83.3' ],
+218 silly audit   'metro-transform-plugins': [ '0.83.3' ],
+218 silly audit   'metro-transform-worker': [ '0.83.3' ],
+218 silly audit   ob1: [ '0.83.3' ],
+218 silly audit   '@react-native/dev-middleware': [ '0.81.5' ],
+218 silly audit   ws: [ '8.20.0', '7.5.10', '6.2.3' ],
+218 silly audit   '@react-navigation/core': [ '7.17.2' ],
+218 silly audit   '@react-navigation/elements': [ '2.9.15' ],
+218 silly audit   '@react-navigation/native': [ '7.2.2' ],
+218 silly audit   '@react-navigation/native-stack': [ '7.14.12' ],
+218 silly audit   '@react-navigation/routers': [ '7.5.3' ],
+218 silly audit   '@sinclair/typebox': [ '0.27.10' ],
+218 silly audit   '@sinonjs/commons': [ '3.0.1' ],
+218 silly audit   '@sinonjs/fake-timers': [ '10.3.0' ],
+218 silly audit   '@types/babel__core': [ '7.20.5' ],
+218 silly audit   '@types/babel__generator': [ '7.27.0' ],
+218 silly audit   '@types/babel__template': [ '7.4.4' ],
+218 silly audit   '@types/babel__traverse': [ '7.28.0' ],
+218 silly audit   '@types/graceful-fs': [ '4.1.9' ],
+218 silly audit   '@types/hammerjs': [ '2.0.46' ],
+218 silly audit   '@types/istanbul-lib-coverage': [ '2.0.6' ],
+218 silly audit   '@types/istanbul-lib-report': [ '3.0.3' ],
+218 silly audit   '@types/istanbul-reports': [ '3.0.4' ],
+218 silly audit   '@types/node': [ '25.6.0' ],
+218 silly audit   '@types/stack-utils': [ '2.0.3' ],
+218 silly audit   '@types/yargs': [ '17.0.35' ],
+218 silly audit   '@types/yargs-parser': [ '21.0.3' ],
+218 silly audit   '@ungap/structured-clone': [ '1.3.0' ],
+218 silly audit   '@urql/core': [ '5.2.0' ],
+218 silly audit   '@urql/exchange-retry': [ '1.3.2' ],
+218 silly audit   '@xmldom/xmldom': [ '0.8.13', '0.9.10' ],
+218 silly audit   'abort-controller': [ '3.0.0' ],
+218 silly audit   accepts: [ '1.3.8' ],
+218 silly audit   acorn: [ '8.16.0' ],
+218 silly audit   'agent-base': [ '7.1.4' ],
+218 silly audit   anser: [ '1.4.10' ],
+218 silly audit   'ansi-escapes': [ '4.3.2' ],
+218 silly audit   'type-fest': [ '0.21.3', '0.7.1' ],
+218 silly audit   'ansi-regex': [ '5.0.1', '4.1.1' ],
+218 silly audit   'any-promise': [ '1.3.0' ],
+218 silly audit   anymatch: [ '3.1.3' ],
+218 silly audit   picomatch: [ '2.3.2', '4.0.4' ],
+218 silly audit   arg: [ '5.0.2' ],
+218 silly audit   asap: [ '2.0.6' ],
+218 silly audit   'async-limiter': [ '1.0.1' ],
+218 silly audit   'babel-jest': [ '29.7.0' ],
+218 silly audit   'babel-plugin-istanbul': [ '6.1.1' ],
+218 silly audit   'babel-plugin-jest-hoist': [ '29.6.3' ],
+218 silly audit   'babel-plugin-polyfill-corejs2': [ '0.4.17' ],
+218 silly audit   'babel-plugin-polyfill-corejs3': [ '0.13.0' ],
+218 silly audit   'babel-plugin-polyfill-regenerator': [ '0.6.8' ],
+218 silly audit   'babel-plugin-react-compiler': [ '1.0.0' ],
+218 silly audit   'babel-plugin-react-native-web': [ '0.21.2' ],
+218 silly audit   'babel-plugin-syntax-hermes-parser': [ '0.29.1' ],
+218 silly audit   'babel-plugin-transform-flow-enums': [ '0.0.2' ],
+218 silly audit   'babel-preset-current-node-syntax': [ '1.2.0' ],
+218 silly audit   'babel-preset-expo': [ '54.0.10' ],
+218 silly audit   'babel-preset-jest': [ '29.6.3' ],
+218 silly audit   'base64-js': [ '1.5.1' ],
+218 silly audit   'baseline-browser-mapping': [ '2.10.27' ],
+218 silly audit   'better-opn': [ '3.0.2' ],
+218 silly audit   open: [ '8.4.2', '7.4.2' ],
+218 silly audit   'big-integer': [ '1.6.52' ],
+218 silly audit   'bplist-creator': [ '0.1.0' ],
+218 silly audit   'bplist-parser': [ '0.3.1' ],
+218 silly audit   braces: [ '3.0.3' ],
+218 silly audit   browserslist: [ '4.28.2' ],
+218 silly audit   bser: [ '2.1.1' ],
+218 silly audit   buffer: [ '5.7.1' ],
+218 silly audit   'buffer-from': [ '1.1.2' ],
+218 silly audit   bytes: [ '3.1.2' ],
+218 silly audit   'caniuse-lite': [ '1.0.30001791' ],
+218 silly audit   chownr: [ '3.0.0' ],
+218 silly audit   'chrome-launcher': [ '0.15.2' ],
+218 silly audit   'chromium-edge-launcher': [ '0.2.0' ],
+218 silly audit   'ci-info': [ '2.0.0', '3.9.0' ],
+218 silly audit   'cli-cursor': [ '2.1.0' ],
+218 silly audit   'cli-spinners': [ '2.9.2' ],
+218 silly audit   cliui: [ '8.0.1' ],
+218 silly audit   clone: [ '1.0.4' ],
+218 silly audit   color: [ '4.2.3' ],
+218 silly audit   'color-string': [ '1.9.1' ],
+218 silly audit   commander: [ '7.2.0', '4.1.1', '2.20.3', '12.1.0' ],
+218 silly audit   compressible: [ '2.0.18' ],
+218 silly audit   compression: [ '1.8.1' ],
+218 silly audit   negotiator: [ '0.6.4', '0.6.3' ],
+218 silly audit   'concat-map': [ '0.0.1' ],
+218 silly audit   connect: [ '3.7.0' ],
+218 silly audit   'convert-source-map': [ '2.0.0' ],
+218 silly audit   'core-js-compat': [ '3.49.0' ],
+218 silly audit   'cross-fetch': [ '3.2.0' ],
+218 silly audit   'cross-spawn': [ '7.0.6' ],
+218 silly audit   'css-in-js-utils': [ '3.1.0' ],
+218 silly audit   csstype: [ '3.2.3' ],
+218 silly audit   'decode-uri-component': [ '0.2.2' ],
+218 silly audit   'deep-extend': [ '0.6.0' ],
+218 silly audit   deepmerge: [ '4.3.1' ],
+218 silly audit   defaults: [ '1.0.4' ],
+218 silly audit   'define-lazy-prop': [ '2.0.0' ],
+218 silly audit   depd: [ '2.0.0' ],
+218 silly audit   destroy: [ '1.2.0' ],
+218 silly audit   'detect-libc': [ '2.1.2' ],
+218 silly audit   dotenv: [ '16.4.7' ],
+218 silly audit   'dotenv-expand': [ '11.0.7' ],
+218 silly audit   'ee-first': [ '1.1.1' ],
+218 silly audit   'electron-to-chromium': [ '1.5.349' ],
+218 silly audit   'emoji-regex': [ '8.0.0' ],
+218 silly audit   encodeurl: [ '1.0.2', '2.0.0' ],
+218 silly audit   'env-editor': [ '0.4.2' ],
+218 silly audit   'is-arrayish': [ '0.3.4' ],
+218 silly audit   'error-stack-parser': [ '2.1.4' ],
+218 silly audit   'es-errors': [ '1.3.0' ],
+218 silly audit   escalade: [ '3.2.0' ],
+218 silly audit   'escape-html': [ '1.0.3' ],
+218 silly audit   esprima: [ '4.0.1' ],
+218 silly audit   etag: [ '1.8.1' ],
+218 silly audit   'event-target-shim': [ '5.0.1' ],
+218 silly audit   expo: [ '54.0.34' ],
+218 silly audit   'expo-asset': [ '12.0.13' ],
+218 silly audit   'expo-constants': [ '18.0.13' ],
+218 silly audit   'expo-file-system': [ '19.0.22' ],
+218 silly audit   'expo-font': [ '14.0.11' ],
+218 silly audit   'expo-keep-awake': [ '15.0.8' ],
+218 silly audit   'expo-modules-autolinking': [ '3.0.25' ],
+218 silly audit   'expo-modules-core': [ '3.0.30' ],
+218 silly audit   'expo-server': [ '1.0.6' ],
+218 silly audit   '@expo/cli': [ '54.0.24' ],
+218 silly audit   'exponential-backoff': [ '3.1.3' ],
+218 silly audit   'fast-deep-equal': [ '3.1.3' ],
+218 silly audit   'fast-json-stable-stringify': [ '2.1.0' ],
+218 silly audit   'fb-watchman': [ '2.0.2' ],
+218 silly audit   fbjs: [ '3.0.5' ],
+218 silly audit   'fbjs-css-vars': [ '1.0.2' ],
+218 silly audit   promise: [ '7.3.1', '8.3.0' ],
+218 silly audit   fdir: [ '6.5.0' ],
+218 silly audit   'fill-range': [ '7.1.1' ],
+218 silly audit   'filter-obj': [ '1.1.0' ],
+218 silly audit   finalhandler: [ '1.1.2' ],
+218 silly audit   'find-up': [ '4.1.0' ],
+218 silly audit   'flow-enums-runtime': [ '0.0.6' ],
+218 silly audit   fontfaceobserver: [ '2.3.0' ],
+218 silly audit   'freeport-async': [ '2.0.0' ],
+218 silly audit   fresh: [ '0.5.2' ],
+218 silly audit   'fs.realpath': [ '1.0.0' ],
+218 silly audit   fsevents: [ '2.3.3' ],
+218 silly audit   'function-bind': [ '1.1.2' ],
+218 silly audit   gensync: [ '1.0.0-beta.2' ],
+218 silly audit   'get-caller-file': [ '2.0.5' ],
+218 silly audit   'get-package-type': [ '0.1.0' ],
+218 silly audit   getenv: [ '2.0.0' ],
+218 silly audit   'graceful-fs': [ '4.2.11' ],
+218 silly audit   hasown: [ '2.0.3' ],
+218 silly audit   'hermes-estree': [ '0.29.1', '0.32.0' ],
+218 silly audit   'hermes-parser': [ '0.29.1', '0.32.0' ],
+218 silly audit   'hoist-non-react-statics': [ '3.3.2' ],
+218 silly audit   'react-is': [ '16.13.1', '18.3.1', '19.2.5' ],
+218 silly audit   'hosted-git-info': [ '7.0.2' ],
+218 silly audit   'lru-cache': [ '10.4.3', '5.1.1', '11.3.5' ],
+218 silly audit   'http-errors': [ '2.0.1' ],
+218 silly audit   statuses: [ '2.0.2', '1.5.0' ],
+218 silly audit   'https-proxy-agent': [ '7.0.6' ],
+218 silly audit   'hyphenate-style-name': [ '1.1.0' ],
+218 silly audit   ieee754: [ '1.2.1' ],
+218 silly audit   ignore: [ '5.3.2' ],
+218 silly audit   'image-size': [ '1.2.1' ],
+218 silly audit   'resolve-from': [ '5.0.0' ],
+218 silly audit   imurmurhash: [ '0.1.4' ],
+218 silly audit   inflight: [ '1.0.6' ],
+218 silly audit   inherits: [ '2.0.4' ],
+218 silly audit   ini: [ '1.3.8' ],
+218 silly audit   'inline-style-prefixer': [ '7.0.1' ],
+218 silly audit   invariant: [ '2.2.4' ],
+218 silly audit   'is-core-module': [ '2.16.1' ],
+218 silly audit   'is-docker': [ '2.2.1' ],
+218 silly audit   'is-fullwidth-code-point': [ '3.0.0' ],
+218 silly audit   'is-number': [ '7.0.0' ],
+218 silly audit   'is-plain-obj': [ '2.1.0' ],
+218 silly audit   'is-wsl': [ '2.2.0' ],
+218 silly audit   isexe: [ '2.0.0' ],
+218 silly audit   'istanbul-lib-coverage': [ '3.2.2' ],
+218 silly audit   'istanbul-lib-instrument': [ '5.2.1' ],
+218 silly audit   'jest-environment-node': [ '29.7.0' ],
+218 silly audit   'jest-get-type': [ '29.6.3' ],
+218 silly audit   'jest-haste-map': [ '29.7.0' ],
+218 silly audit   'jest-message-util': [ '29.7.0' ],
+218 silly audit   'jest-mock': [ '29.7.0' ],
+218 silly audit   'jest-regex-util': [ '29.6.3' ],
+218 silly audit   'jest-util': [ '29.7.0' ],
+218 silly audit   'jest-validate': [ '29.7.0' ],
+218 silly audit   'jest-worker': [ '29.7.0' ],
+218 silly audit   'jimp-compact': [ '0.16.1' ],
+218 silly audit   'js-tokens': [ '4.0.0' ],
+218 silly audit   'jsc-safe-url': [ '0.2.4' ],
+218 silly audit   jsesc: [ '3.1.0' ],
+218 silly audit   json5: [ '2.2.3' ],
+218 silly audit   kleur: [ '3.0.3' ],
+218 silly audit   'lan-network': [ '0.2.1' ],
+218 silly audit   leven: [ '3.1.0' ],
+218 silly audit   'lighthouse-logger': [ '1.4.2' ],
+218 silly audit   lightningcss: [ '1.32.0' ],
+218 silly audit   'lightningcss-android-arm64': [ '1.32.0' ],
+218 silly audit   'lightningcss-darwin-arm64': [ '1.32.0' ],
+218 silly audit   'lightningcss-darwin-x64': [ '1.32.0' ],
+218 silly audit   'lightningcss-freebsd-x64': [ '1.32.0' ],
+218 silly audit   'lightningcss-linux-arm-gnueabihf': [ '1.32.0' ],
+218 silly audit   'lightningcss-linux-arm64-gnu': [ '1.32.0' ],
+218 silly audit   'lightningcss-linux-arm64-musl': [ '1.32.0' ],
+218 silly audit   'lightningcss-linux-x64-gnu': [ '1.32.0' ],
+218 silly audit   'lightningcss-linux-x64-musl': [ '1.32.0' ],
+218 silly audit   'lightningcss-win32-arm64-msvc': [ '1.32.0' ],
+218 silly audit   'lightningcss-win32-x64-msvc': [ '1.32.0' ],
+218 silly audit   'lines-and-columns': [ '1.2.4' ],
+218 silly audit   'locate-path': [ '5.0.0' ],
+218 silly audit   'lodash.debounce': [ '4.0.8' ],
+218 silly audit   'lodash.throttle': [ '4.1.1' ],
+218 silly audit   'log-symbols': [ '2.2.0' ],
+218 silly audit   'loose-envify': [ '1.4.0' ],
+218 silly audit   makeerror: [ '1.0.12' ],
+218 silly audit   marky: [ '1.3.0' ],
+218 silly audit   'memoize-one': [ '5.2.1', '6.0.0' ],
+218 silly audit   'merge-options': [ '3.0.4' ],
+218 silly audit   'merge-stream': [ '2.0.0' ],
+218 silly audit   micromatch: [ '4.0.8' ],
+218 silly audit   mime: [ '1.6.0' ],
+218 silly audit   'mime-db': [ '1.52.0' ],
+218 silly audit   'mime-types': [ '2.1.35' ],
+218 silly audit   'mimic-fn': [ '1.2.0' ],
+218 silly audit   minimist: [ '1.2.8' ],
+218 silly audit   minipass: [ '7.1.3' ],
+218 silly audit   minizlib: [ '3.1.0' ],
+218 silly audit   mkdirp: [ '1.0.4' ],
+218 silly audit   mz: [ '2.7.0' ],
+218 silly audit   nanoid: [ '3.3.12' ],
+218 silly audit   'nested-error-stacks': [ '2.0.1' ],
+218 silly audit   'node-fetch': [ '2.7.0' ],
+218 silly audit   'node-forge': [ '1.4.0' ],
+218 silly audit   'node-int64': [ '0.4.0' ],
+218 silly audit   'node-releases': [ '2.0.38' ],
+218 silly audit   'normalize-path': [ '3.0.0' ],
+218 silly audit   'npm-package-arg': [ '11.0.3' ],
+218 silly audit   nullthrows: [ '1.1.1' ],
+218 silly audit   'object-assign': [ '4.1.1' ],
+218 silly audit   'on-finished': [ '2.3.0', '2.4.1' ],
+218 silly audit   'on-headers': [ '1.1.0' ],
+218 silly audit   once: [ '1.4.0' ],
+218 silly audit   onetime: [ '2.0.1' ],
+218 silly audit   ora: [ '3.4.0' ],
+218 silly audit   'strip-ansi': [ '5.2.0', '6.0.1' ],
+218 silly audit   'p-limit': [ '3.1.0', '2.3.0' ],
+218 silly audit   'p-locate': [ '4.1.0' ],
+218 silly audit   'p-try': [ '2.2.0' ],
+218 silly audit   'parse-png': [ '2.1.0' ],
+218 silly audit   parseurl: [ '1.3.3' ],
+218 silly audit   'path-exists': [ '4.0.0' ],
+218 silly audit   'path-is-absolute': [ '1.0.1' ],
+218 silly audit   'path-key': [ '3.1.1' ],
+218 silly audit   'path-parse': [ '1.0.7' ],
+218 silly audit   'path-scurry': [ '2.0.2' ],
+218 silly audit   picocolors: [ '1.1.1' ],
+218 silly audit   pirates: [ '4.0.7' ],
+218 silly audit   plist: [ '3.1.1' ],
+218 silly audit   pngjs: [ '3.4.0' ],
+218 silly audit   postcss: [ '8.4.49' ],
+218 silly audit   'postcss-value-parser': [ '4.2.0' ],
+218 silly audit   'pretty-bytes': [ '5.6.0' ],
+218 silly audit   'pretty-format': [ '29.7.0' ],
+218 silly audit   'proc-log': [ '4.2.0' ],
+218 silly audit   progress: [ '2.0.3' ],
+218 silly audit   prompts: [ '2.4.2' ],
+218 silly audit   punycode: [ '2.3.1' ],
+218 silly audit   'qrcode-terminal': [ '0.11.0' ],
+218 silly audit   'query-string': [ '7.1.3' ],
+218 silly audit   queue: [ '6.0.2' ],
+218 silly audit   'range-parser': [ '1.2.1' ],
+218 silly audit   rc: [ '1.2.8' ],
+218 silly audit   'react-devtools-core': [ '6.1.5' ],
+218 silly audit   'react-freeze': [ '1.0.4' ],
+218 silly audit   'react-native-is-edge-to-edge': [ '1.3.1' ],
+218 silly audit   'react-refresh': [ '0.14.2' ],
+218 silly audit   regenerate: [ '1.4.2' ],
+218 silly audit   'regenerate-unicode-properties': [ '10.2.2' ],
+218 silly audit   'regenerator-runtime': [ '0.13.11' ],
+218 silly audit   'regexpu-core': [ '6.4.0' ],
+218 silly audit   regjsgen: [ '0.8.0' ],
+218 silly audit   regjsparser: [ '0.13.1' ],
+218 silly audit   'require-directory': [ '2.1.1' ],
+218 silly audit   'require-from-string': [ '2.0.2' ],
+218 silly audit   requireg: [ '0.2.2' ],
+218 silly audit   resolve: [ '1.7.1', '1.22.12' ],
+218 silly audit   'resolve-workspace-root': [ '2.0.1' ],
+218 silly audit   'resolve.exports': [ '2.0.3' ],
+218 silly audit   'restore-cursor': [ '2.0.0' ],
+218 silly audit   rimraf: [ '3.0.2' ],
+218 silly audit   'safe-buffer': [ '5.2.1' ],
+218 silly audit   sax: [ '1.6.0' ],
+218 silly audit   send: [ '0.19.2' ],
+218 silly audit   'serialize-error': [ '2.1.0' ],
+218 silly audit   'serve-static': [ '1.16.3' ],
+218 silly audit   setimmediate: [ '1.0.5' ],
+218 silly audit   setprototypeof: [ '1.2.0' ],
+218 silly audit   'sf-symbols-typescript': [ '2.2.0' ],
+218 silly audit   'shebang-command': [ '2.0.0' ],
+218 silly audit   'shebang-regex': [ '3.0.0' ],
+218 silly audit   'shell-quote': [ '1.8.3' ],
+218 silly audit   'signal-exit': [ '3.0.7' ],
+218 silly audit   'simple-plist': [ '1.3.1' ],
+218 silly audit   'simple-swizzle': [ '0.2.4' ],
+218 silly audit   sisteransi: [ '1.0.5' ],
+218 silly audit   slash: [ '3.0.0' ],
+218 silly audit   slugify: [ '1.6.9' ],
+218 silly audit   'source-map': [ '0.5.7', '0.6.1' ],
+218 silly audit   'source-map-js': [ '1.2.1' ],
+218 silly audit   'source-map-support': [ '0.5.21' ],
+218 silly audit   'split-on-first': [ '1.1.0' ],
+218 silly audit   'sprintf-js': [ '1.0.3' ],
+218 silly audit   'stack-utils': [ '2.0.6' ],
+218 silly audit   stackframe: [ '1.3.4' ],
+218 silly audit   'stacktrace-parser': [ '0.1.11' ],
+218 silly audit   'stream-buffers': [ '2.2.0' ],
+218 silly audit   'strict-uri-encode': [ '2.0.0' ],
+218 silly audit   'string-width': [ '4.2.3' ],
+218 silly audit   'strip-json-comments': [ '2.0.1' ],
+218 silly audit   'structured-headers': [ '0.4.1' ],
+218 silly audit   styleq: [ '0.1.3' ],
+218 silly audit   sucrase: [ '3.35.1' ],
+218 silly audit   'supports-hyperlinks': [ '2.3.0' ],
+218 silly audit   'supports-preserve-symlinks-flag': [ '1.0.0' ],
+218 silly audit   tar: [ '7.5.13' ],
+218 silly audit   yallist: [ '5.0.0', '3.1.1' ],
+218 silly audit   'terminal-link': [ '2.1.1' ],
+218 silly audit   terser: [ '5.46.2' ],
+218 silly audit   'test-exclude': [ '6.0.0' ],
+218 silly audit   thenify: [ '3.3.1' ],
+218 silly audit   'thenify-all': [ '1.6.0' ],
+218 silly audit   throat: [ '5.0.0' ],
+218 silly audit   tinyglobby: [ '0.2.16' ],
+218 silly audit   tmpl: [ '1.0.5' ],
+218 silly audit   'to-regex-range': [ '5.0.1' ],
+218 silly audit   toidentifier: [ '1.0.1' ],
+218 silly audit   tr46: [ '0.0.3' ],
+218 silly audit   'ts-interface-checker': [ '0.1.13' ],
+218 silly audit   'type-detect': [ '4.0.8' ],
+218 silly audit   typescript: [ '5.8.3' ],
+218 silly audit   'ua-parser-js': [ '1.0.41' ],
+218 silly audit   undici: [ '6.25.0' ],
+218 silly audit   'undici-types': [ '7.19.2' ],
+218 silly audit   'unicode-canonical-property-names-ecmascript': [ '2.0.1' ],
+218 silly audit   'unicode-match-property-ecmascript': [ '2.0.0' ],
+218 silly audit   'unicode-match-property-value-ecmascript': [ '2.2.1' ],
+218 silly audit   'unicode-property-aliases-ecmascript': [ '2.2.0' ],
+218 silly audit   unpipe: [ '1.0.0' ],
+218 silly audit   'update-browserslist-db': [ '1.2.3' ],
+218 silly audit   'use-latest-callback': [ '0.2.6' ],
+218 silly audit   'use-sync-external-store': [ '1.6.0' ],
+218 silly audit   'utils-merge': [ '1.0.1' ],
+218 silly audit   uuid: [ '7.0.3' ],
+218 silly audit   'validate-npm-package-name': [ '5.0.1' ],
+218 silly audit   vary: [ '1.1.2' ],
+218 silly audit   vlq: [ '1.0.1' ],
+218 silly audit   walker: [ '1.0.8' ],
+218 silly audit   'warn-once': [ '0.1.1' ],
+218 silly audit   wcwidth: [ '1.0.1' ],
+218 silly audit   'webidl-conversions': [ '3.0.1', '5.0.0' ],
+218 silly audit   'whatwg-fetch': [ '3.6.20' ],
+218 silly audit   'whatwg-url': [ '5.0.0' ],
+218 silly audit   'whatwg-url-without-unicode': [ '8.0.0-3' ],
+218 silly audit   which: [ '2.0.2' ],
+218 silly audit   wonka: [ '6.3.6' ],
+218 silly audit   'wrap-ansi': [ '7.0.0' ],
+218 silly audit   wrappy: [ '1.0.2' ],
+218 silly audit   'write-file-atomic': [ '4.0.2' ],
+218 silly audit   xcode: [ '3.0.1' ],
+218 silly audit   xml2js: [ '0.6.0' ],
+218 silly audit   xmlbuilder: [ '11.0.1', '15.1.1' ],
+218 silly audit   y18n: [ '5.0.8' ],
+218 silly audit   yaml: [ '2.8.4' ],
+218 silly audit   yargs: [ '17.7.2' ],
+218 silly audit   'yargs-parser': [ '21.1.1' ],
+218 silly audit   'yocto-queue': [ '0.1.0' ],
+218 silly audit   '@expo/metro-runtime': [ '6.1.2' ],
+218 silly audit   '@types/react': [ '19.1.17' ],
+218 silly audit   'expo-camera': [ '17.0.10' ],
+218 silly audit   'expo-status-bar': [ '3.0.9' ],
+218 silly audit   react: [ '19.1.0' ],
+218 silly audit   'react-dom': [ '19.1.0' ],
+218 silly audit   'react-native': [ '0.81.5' ],
+218 silly audit   'react-native-gesture-handler': [ '2.28.0' ],
+218 silly audit   'react-native-safe-area-context': [ '5.6.2' ],
+218 silly audit   'react-native-screens': [ '4.16.0' ],
+218 silly audit   'react-native-web': [ '0.21.2' ],
+218 silly audit   scheduler: [ '0.26.0' ],
+218 silly audit   '@react-native/assets-registry': [ '0.81.5' ],
+218 silly audit   '@react-native/community-cli-plugin': [ '0.81.5' ],
+218 silly audit   '@react-native/gradle-plugin': [ '0.81.5' ],
+218 silly audit   '@react-native/js-polyfills': [ '0.81.5' ],
+218 silly audit   '@react-native/virtualized-lists': [ '0.81.5' ],
+218 silly audit   '@react-native/debugger-frontend': [ '0.81.5' ]
+218 silly audit }
+219 verbose reify failed optional dependency D:\Project\DiemDanhTN\frontend\node_modules\lightningcss-win32-arm64-msvc
+220 silly reify mark deleted [
+220 silly reify   'D:\\Project\\DiemDanhTN\\frontend\\node_modules\\lightningcss-win32-arm64-msvc'
+220 silly reify ]
+221 verbose reify failed optional dependency D:\Project\DiemDanhTN\frontend\node_modules\lightningcss-linux-x64-musl
+222 silly reify mark deleted [
+222 silly reify   'D:\\Project\\DiemDanhTN\\frontend\\node_modules\\lightningcss-linux-x64-musl'
+222 silly reify ]
+223 verbose reify failed optional dependency D:\Project\DiemDanhTN\frontend\node_modules\lightningcss-linux-x64-gnu
+224 silly reify mark deleted [
+224 silly reify   'D:\\Project\\DiemDanhTN\\frontend\\node_modules\\lightningcss-linux-x64-gnu'
+224 silly reify ]
+225 verbose reify failed optional dependency D:\Project\DiemDanhTN\frontend\node_modules\lightningcss-linux-arm64-musl
+226 silly reify mark deleted [
+226 silly reify   'D:\\Project\\DiemDanhTN\\frontend\\node_modules\\lightningcss-linux-arm64-musl'
+226 silly reify ]
+227 verbose reify failed optional dependency D:\Project\DiemDanhTN\frontend\node_modules\lightningcss-linux-arm64-gnu
+228 silly reify mark deleted [
+228 silly reify   'D:\\Project\\DiemDanhTN\\frontend\\node_modules\\lightningcss-linux-arm64-gnu'
+228 silly reify ]
+229 verbose reify failed optional dependency D:\Project\DiemDanhTN\frontend\node_modules\lightningcss-linux-arm-gnueabihf
+230 silly reify mark deleted [
+230 silly reify   'D:\\Project\\DiemDanhTN\\frontend\\node_modules\\lightningcss-linux-arm-gnueabihf'
+230 silly reify ]
+231 verbose reify failed optional dependency D:\Project\DiemDanhTN\frontend\node_modules\lightningcss-freebsd-x64
+232 silly reify mark deleted [
+232 silly reify   'D:\\Project\\DiemDanhTN\\frontend\\node_modules\\lightningcss-freebsd-x64'
+232 silly reify ]
+233 verbose reify failed optional dependency D:\Project\DiemDanhTN\frontend\node_modules\lightningcss-darwin-x64
+234 silly reify mark deleted [
+234 silly reify   'D:\\Project\\DiemDanhTN\\frontend\\node_modules\\lightningcss-darwin-x64'
+234 silly reify ]
+235 verbose reify failed optional dependency D:\Project\DiemDanhTN\frontend\node_modules\lightningcss-darwin-arm64
+236 silly reify mark deleted [
+236 silly reify   'D:\\Project\\DiemDanhTN\\frontend\\node_modules\\lightningcss-darwin-arm64'
+236 silly reify ]
+237 verbose reify failed optional dependency D:\Project\DiemDanhTN\frontend\node_modules\lightningcss-android-arm64
+238 silly reify mark deleted [
+238 silly reify   'D:\\Project\\DiemDanhTN\\frontend\\node_modules\\lightningcss-android-arm64'
+238 silly reify ]
+239 verbose reify failed optional dependency D:\Project\DiemDanhTN\frontend\node_modules\fsevents
+240 silly reify mark deleted [ 'D:\\Project\\DiemDanhTN\\frontend\\node_modules\\fsevents' ]
+241 http cache @react-native/dev-middleware@https://registry.npmjs.org/@react-native/dev-middleware/-/dev-middleware-0.81.5.tgz 0ms (cache hit)
+242 http cache scheduler@https://registry.npmjs.org/scheduler/-/scheduler-0.26.0.tgz 0ms (cache hit)
+243 http cache react-native-web@https://registry.npmjs.org/react-native-web/-/react-native-web-0.21.2.tgz 0ms (cache hit)
+244 http cache react-native-gesture-handler@https://registry.npmjs.org/react-native-gesture-handler/-/react-native-gesture-handler-2.28.0.tgz 0ms (cache hit)
+245 http cache react-native-safe-area-context@https://registry.npmjs.org/react-native-safe-area-context/-/react-native-safe-area-context-5.6.2.tgz 0ms (cache hit)
+246 http cache expo-status-bar@https://registry.npmjs.org/expo-status-bar/-/expo-status-bar-3.0.9.tgz 0ms (cache hit)
+247 http cache react-native-screens@https://registry.npmjs.org/react-native-screens/-/react-native-screens-4.16.0.tgz 0ms (cache hit)
+248 http cache react-native@https://registry.npmjs.org/react-native/-/react-native-0.81.5.tgz 0ms (cache hit)
+249 http cache @types/react@https://registry.npmjs.org/@types/react/-/react-19.1.17.tgz 0ms (cache hit)
+250 http cache @react-native/normalize-colors@https://registry.npmjs.org/@react-native/normalize-colors/-/normalize-colors-0.81.5.tgz 0ms (cache hit)
+251 http cache react-dom@https://registry.npmjs.org/react-dom/-/react-dom-19.1.0.tgz 0ms (cache hit)
+252 http cache @react-native/js-polyfills@https://registry.npmjs.org/@react-native/js-polyfills/-/js-polyfills-0.81.5.tgz 0ms (cache hit)
+253 http cache expo-camera@https://registry.npmjs.org/expo-camera/-/expo-camera-17.0.10.tgz 0ms (cache hit)
+254 http cache react@https://registry.npmjs.org/react/-/react-19.1.0.tgz 0ms (cache hit)
+255 http cache @react-native/gradle-plugin@https://registry.npmjs.org/@react-native/gradle-plugin/-/gradle-plugin-0.81.5.tgz 0ms (cache hit)
+256 http cache @react-native/community-cli-plugin@https://registry.npmjs.org/@react-native/community-cli-plugin/-/community-cli-plugin-0.81.5.tgz 0ms (cache hit)
+257 silly tarball no local data for @react-native/dev-middleware@https://registry.npmjs.org/@react-native/dev-middleware/-/dev-middleware-0.81.5.tgz. Extracting by manifest.
+258 http cache @expo/metro-runtime@https://registry.npmjs.org/@expo/metro-runtime/-/metro-runtime-6.1.2.tgz 0ms (cache hit)
+259 http cache @react-native/debugger-frontend@https://registry.npmjs.org/@react-native/debugger-frontend/-/debugger-frontend-0.81.5.tgz 0ms (cache hit)
+260 http cache @react-native/assets-registry@https://registry.npmjs.org/@react-native/assets-registry/-/assets-registry-0.81.5.tgz 0ms (cache hit)
+261 silly tarball no local data for scheduler@https://registry.npmjs.org/scheduler/-/scheduler-0.26.0.tgz. Extracting by manifest.
+262 silly tarball no local data for react-native-web@https://registry.npmjs.org/react-native-web/-/react-native-web-0.21.2.tgz. Extracting by manifest.
+263 silly tarball no local data for react-native-gesture-handler@https://registry.npmjs.org/react-native-gesture-handler/-/react-native-gesture-handler-2.28.0.tgz. Extracting by manifest.
+264 silly tarball no local data for react-native-safe-area-context@https://registry.npmjs.org/react-native-safe-area-context/-/react-native-safe-area-context-5.6.2.tgz. Extracting by manifest.
+265 silly tarball no local data for expo-status-bar@https://registry.npmjs.org/expo-status-bar/-/expo-status-bar-3.0.9.tgz. Extracting by manifest.
+266 silly tarball no local data for react-native-screens@https://registry.npmjs.org/react-native-screens/-/react-native-screens-4.16.0.tgz. Extracting by manifest.
+267 silly tarball no local data for react-native@https://registry.npmjs.org/react-native/-/react-native-0.81.5.tgz. Extracting by manifest.
+268 silly tarball no local data for @types/react@https://registry.npmjs.org/@types/react/-/react-19.1.17.tgz. Extracting by manifest.
+269 silly tarball no local data for @react-native/normalize-colors@https://registry.npmjs.org/@react-native/normalize-colors/-/normalize-colors-0.81.5.tgz. Extracting by manifest.
+270 silly tarball no local data for react-dom@https://registry.npmjs.org/react-dom/-/react-dom-19.1.0.tgz. Extracting by manifest.
+271 silly tarball no local data for @react-native/js-polyfills@https://registry.npmjs.org/@react-native/js-polyfills/-/js-polyfills-0.81.5.tgz. Extracting by manifest.
+272 silly tarball no local data for expo-camera@https://registry.npmjs.org/expo-camera/-/expo-camera-17.0.10.tgz. Extracting by manifest.
+273 silly tarball no local data for react@https://registry.npmjs.org/react/-/react-19.1.0.tgz. Extracting by manifest.
+274 silly tarball no local data for @react-native/gradle-plugin@https://registry.npmjs.org/@react-native/gradle-plugin/-/gradle-plugin-0.81.5.tgz. Extracting by manifest.
+275 http cache @react-native/virtualized-lists@https://registry.npmjs.org/@react-native/virtualized-lists/-/virtualized-lists-0.81.5.tgz 0ms (cache hit)
+276 silly tarball no local data for @react-native/community-cli-plugin@https://registry.npmjs.org/@react-native/community-cli-plugin/-/community-cli-plugin-0.81.5.tgz. Extracting by manifest.
+277 silly tarball no local data for @expo/metro-runtime@https://registry.npmjs.org/@expo/metro-runtime/-/metro-runtime-6.1.2.tgz. Extracting by manifest.
+278 silly tarball no local data for @react-native/debugger-frontend@https://registry.npmjs.org/@react-native/debugger-frontend/-/debugger-frontend-0.81.5.tgz. Extracting by manifest.
+279 silly tarball no local data for @react-native/assets-registry@https://registry.npmjs.org/@react-native/assets-registry/-/assets-registry-0.81.5.tgz. Extracting by manifest.
+280 silly tarball no local data for @react-native/virtualized-lists@https://registry.npmjs.org/@react-native/virtualized-lists/-/virtualized-lists-0.81.5.tgz. Extracting by manifest.
+281 http fetch GET 200 https://registry.npmjs.org/expo-status-bar/-/expo-status-bar-3.0.9.tgz 171ms (cache miss)
+282 http fetch GET 200 https://registry.npmjs.org/scheduler/-/scheduler-0.26.0.tgz 174ms (cache miss)
+283 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 269ms
+284 silly audit report {
+284 silly audit report   postcss: [
+284 silly audit report     {
+284 silly audit report       id: 1117015,
+284 silly audit report       url: 'https://github.com/advisories/GHSA-qx2v-qp2m-jg93',
+284 silly audit report       title: 'PostCSS has XSS via Unescaped </style> in its CSS Stringify Output',
+284 silly audit report       severity: 'moderate',
+284 silly audit report       vulnerable_versions: '<8.5.10',
+284 silly audit report       cwe: [Array],
+284 silly audit report       cvss: [Object]
+284 silly audit report     }
+284 silly audit report   ],
+284 silly audit report   uuid: [
+284 silly audit report     {
+284 silly audit report       id: 1116970,
+284 silly audit report       url: 'https://github.com/advisories/GHSA-w5hq-g745-h8pq',
+284 silly audit report       title: 'uuid: Missing buffer bounds check in v3/v5/v6 when buf is provided',
+284 silly audit report       severity: 'moderate',
+284 silly audit report       vulnerable_versions: '<14.0.0',
+284 silly audit report       cwe: [Array],
+284 silly audit report       cvss: [Object]
+284 silly audit report     }
+284 silly audit report   ]
+284 silly audit report }
+285 silly packumentCache corgi:https://registry.npmjs.org/postcss cache-miss
+286 silly packumentCache corgi:https://registry.npmjs.org/uuid cache-miss
+287 http fetch GET 200 https://registry.npmjs.org/@react-native/assets-registry/-/assets-registry-0.81.5.tgz 272ms (cache miss)
+288 http fetch GET 200 https://registry.npmjs.org/@react-native/normalize-colors/-/normalize-colors-0.81.5.tgz 402ms (cache miss)
+289 http fetch GET 200 https://registry.npmjs.org/@react-native/virtualized-lists/-/virtualized-lists-0.81.5.tgz 422ms (cache miss)
+290 http fetch GET 200 https://registry.npmjs.org/react/-/react-19.1.0.tgz 440ms (cache miss)
+291 http fetch GET 200 https://registry.npmjs.org/@react-native/dev-middleware/-/dev-middleware-0.81.5.tgz 456ms (cache miss)
+292 http fetch GET 200 https://registry.npmjs.org/@react-native/js-polyfills/-/js-polyfills-0.81.5.tgz 506ms (cache miss)
+293 http fetch GET 200 https://registry.npmjs.org/postcss 344ms (cache miss)
+294 silly packumentCache corgi:https://registry.npmjs.org/postcss set size:undefined disposed:false
+295 http fetch GET 200 https://registry.npmjs.org/react-native-safe-area-context/-/react-native-safe-area-context-5.6.2.tgz 854ms (cache miss)
+296 http fetch GET 200 https://registry.npmjs.org/@react-native/gradle-plugin/-/gradle-plugin-0.81.5.tgz 938ms (cache miss)
+297 http fetch GET 200 https://registry.npmjs.org/@expo/metro-runtime/-/metro-runtime-6.1.2.tgz 977ms (cache miss)
+298 http fetch GET 200 https://registry.npmjs.org/@react-native/community-cli-plugin/-/community-cli-plugin-0.81.5.tgz 1040ms (cache miss)
+299 http fetch GET 200 https://registry.npmjs.org/react-dom/-/react-dom-19.1.0.tgz 1159ms (cache miss)
+300 http fetch GET 200 https://registry.npmjs.org/expo-camera/-/expo-camera-17.0.10.tgz 1168ms (cache miss)
+301 http fetch GET 200 https://registry.npmjs.org/@types/react/-/react-19.1.17.tgz 1194ms (cache miss)
+302 http fetch GET 200 https://registry.npmjs.org/uuid 965ms (cache miss)
+303 silly packumentCache corgi:https://registry.npmjs.org/uuid set size:undefined disposed:false
+304 silly packumentCache corgi:https://registry.npmjs.org/@expo%2fmetro-config cache-miss
+305 http fetch GET 200 https://registry.npmjs.org/@expo%2fmetro-config 121ms (cache miss)
+306 silly packumentCache corgi:https://registry.npmjs.org/@expo%2fmetro-config set size:undefined disposed:false
+307 silly packumentCache corgi:https://registry.npmjs.org/xcode cache-miss
+308 http fetch GET 200 https://registry.npmjs.org/xcode 160ms (cache miss)
+309 silly packumentCache corgi:https://registry.npmjs.org/xcode set size:undefined disposed:false
+310 silly packumentCache corgi:https://registry.npmjs.org/expo cache-miss
+311 silly packumentCache corgi:https://registry.npmjs.org/@expo%2fcli cache-miss
+312 http fetch GET 200 https://registry.npmjs.org/@expo%2fcli 171ms (cache miss)
+313 silly packumentCache corgi:https://registry.npmjs.org/@expo%2fcli set size:undefined disposed:false
+314 http fetch GET 200 https://registry.npmjs.org/expo 290ms (cache miss)
+315 silly packumentCache corgi:https://registry.npmjs.org/expo set size:undefined disposed:false
+316 silly packumentCache corgi:https://registry.npmjs.org/@expo%2fconfig-plugins cache-miss
+317 http fetch GET 200 https://registry.npmjs.org/@expo%2fconfig-plugins 223ms (cache miss)
+318 silly packumentCache corgi:https://registry.npmjs.org/@expo%2fconfig-plugins set size:undefined disposed:false
+319 silly packumentCache corgi:https://registry.npmjs.org/@expo%2fprebuild-config cache-miss
+320 silly packumentCache corgi:https://registry.npmjs.org/babel-preset-expo cache-miss
+321 silly packumentCache corgi:https://registry.npmjs.org/expo-asset cache-miss
+322 silly packumentCache corgi:https://registry.npmjs.org/expo-constants cache-miss
+323 silly packumentCache corgi:https://registry.npmjs.org/expo-file-system cache-miss
+324 silly packumentCache corgi:https://registry.npmjs.org/expo-font cache-miss
+325 silly packumentCache corgi:https://registry.npmjs.org/expo-keep-awake cache-miss
+326 silly packumentCache corgi:https://registry.npmjs.org/@expo%2fmetro-runtime cache-miss
+327 silly packumentCache corgi:https://registry.npmjs.org/expo-camera cache-miss
+328 http fetch GET 200 https://registry.npmjs.org/expo-keep-awake 197ms (cache miss)
+329 silly packumentCache corgi:https://registry.npmjs.org/expo-keep-awake set size:undefined disposed:false
+330 http fetch GET 200 https://registry.npmjs.org/expo-file-system 265ms (cache miss)
+331 silly packumentCache corgi:https://registry.npmjs.org/expo-file-system set size:undefined disposed:false
+332 http fetch GET 200 https://registry.npmjs.org/expo-font 304ms (cache miss)
+333 silly packumentCache corgi:https://registry.npmjs.org/expo-font set size:undefined disposed:false
+334 http fetch GET 200 https://registry.npmjs.org/expo-constants 339ms (cache miss)
+335 silly packumentCache corgi:https://registry.npmjs.org/expo-constants set size:undefined disposed:false
+336 http fetch GET 200 https://registry.npmjs.org/expo-asset 383ms (cache miss)
+337 silly packumentCache corgi:https://registry.npmjs.org/expo-asset set size:undefined disposed:false
+338 http fetch GET 200 https://registry.npmjs.org/@expo%2fprebuild-config 431ms (cache miss)
+339 silly packumentCache corgi:https://registry.npmjs.org/@expo%2fprebuild-config set size:undefined disposed:false
+340 http fetch GET 200 https://registry.npmjs.org/babel-preset-expo 466ms (cache miss)
+341 silly packumentCache corgi:https://registry.npmjs.org/babel-preset-expo set size:undefined disposed:false
+342 http fetch GET 200 https://registry.npmjs.org/expo-camera 495ms (cache miss)
+343 silly packumentCache corgi:https://registry.npmjs.org/expo-camera set size:undefined disposed:false
+344 http fetch GET 200 https://registry.npmjs.org/@expo%2fmetro-runtime 743ms (cache miss)
+345 silly packumentCache corgi:https://registry.npmjs.org/@expo%2fmetro-runtime set size:undefined disposed:false
+346 silly packumentCache corgi:https://registry.npmjs.org/@expo%2fconfig cache-miss
+347 http fetch GET 200 https://registry.npmjs.org/@expo%2fconfig 230ms (cache miss)
+348 silly packumentCache corgi:https://registry.npmjs.org/@expo%2fconfig set size:undefined disposed:false
+349 http fetch GET 200 https://registry.npmjs.org/react-native-screens/-/react-native-screens-4.16.0.tgz 3997ms (cache miss)
+350 http fetch GET 200 https://registry.npmjs.org/react-native-web/-/react-native-web-0.21.2.tgz 4067ms (cache miss)
+351 http fetch GET 200 https://registry.npmjs.org/@react-native/debugger-frontend/-/debugger-frontend-0.81.5.tgz 4145ms (cache miss)
+352 http fetch GET 200 https://registry.npmjs.org/react-native-gesture-handler/-/react-native-gesture-handler-2.28.0.tgz 4207ms (cache miss)
+353 http fetch GET 200 https://registry.npmjs.org/react-native/-/react-native-0.81.5.tgz 10398ms (cache miss)
+354 silly ADD
+355 silly ADD
+356 silly ADD
+357 silly ADD
+358 silly ADD
+359 silly ADD
+360 silly ADD
+361 silly ADD
+362 silly ADD
+363 silly ADD
+364 silly ADD
+365 silly CHANGE node_modules/scheduler
+366 silly CHANGE node_modules/react-native-web
+367 silly CHANGE node_modules/react-native-screens
+368 silly CHANGE node_modules/react-native-safe-area-context
+369 silly CHANGE node_modules/react-native-gesture-handler
+370 silly REMOVE node_modules/react-native-edge-to-edge
+371 silly CHANGE node_modules/react-native
+372 silly REMOVE node_modules/react-native/node_modules/ob1
+373 silly REMOVE node_modules/react-native/node_modules/metro-symbolicate
+374 silly REMOVE node_modules/react-native/node_modules/metro-source-map
+375 silly REMOVE node_modules/react-native/node_modules/metro-runtime
+376 silly REMOVE node_modules/react-native/node_modules/hermes-parser
+377 silly REMOVE node_modules/react-native/node_modules/hermes-estree
+378 silly REMOVE node_modules/react-native/node_modules/babel-plugin-syntax-hermes-parser
+379 silly CHANGE node_modules/react-native/node_modules/@react-native/virtualized-lists
+380 silly REMOVE node_modules/react-native/node_modules/@react-native/codegen
+381 silly CHANGE node_modules/react-dom
+382 silly CHANGE node_modules/react
+383 silly REMOVE node_modules/parse-json
+384 silly REMOVE node_modules/json-parse-better-errors
+385 silly REMOVE node_modules/is-directory
+386 silly REMOVE node_modules/import-fresh
+387 silly REMOVE node_modules/import-fresh/node_modules/resolve-from
+388 silly CHANGE node_modules/expo-status-bar
+389 silly CHANGE node_modules/expo-camera
+390 silly REMOVE node_modules/expo/node_modules/@react-native/dev-middleware
+391 silly REMOVE node_modules/expo/node_modules/@react-native/dev-middleware/node_modules/ws
+392 silly REMOVE node_modules/expo/node_modules/@react-native/debugger-frontend
+393 silly REMOVE node_modules/error-ex
+394 silly REMOVE node_modules/error-ex/node_modules/is-arrayish
+395 silly REMOVE node_modules/cosmiconfig
+396 silly REMOVE node_modules/callsites
+397 silly REMOVE node_modules/caller-path
+398 silly REMOVE node_modules/caller-callsite
+399 silly CHANGE node_modules/@types/react
+400 silly CHANGE node_modules/@react-native/normalize-colors
+401 silly CHANGE node_modules/@react-native/js-polyfills
+402 silly CHANGE node_modules/@react-native/gradle-plugin
+403 silly CHANGE node_modules/@react-native/dev-middleware
+404 silly REMOVE node_modules/@react-native/dev-middleware/node_modules/ms
+405 silly REMOVE node_modules/@react-native/dev-middleware/node_modules/debug
+406 silly CHANGE node_modules/@react-native/debugger-frontend
+407 silly CHANGE node_modules/@react-native/community-cli-plugin
+408 silly REMOVE node_modules/@react-native/community-cli-plugin/node_modules/ob1
+409 silly REMOVE node_modules/@react-native/community-cli-plugin/node_modules/ms
+410 silly REMOVE node_modules/@react-native/community-cli-plugin/node_modules/metro-transform-worker
+411 silly REMOVE node_modules/@react-native/community-cli-plugin/node_modules/metro-transform-plugins
+412 silly REMOVE node_modules/@react-native/community-cli-plugin/node_modules/metro-symbolicate
+413 silly REMOVE node_modules/@react-native/community-cli-plugin/node_modules/metro-source-map
+414 silly REMOVE node_modules/@react-native/community-cli-plugin/node_modules/metro-runtime
+415 silly REMOVE node_modules/@react-native/community-cli-plugin/node_modules/metro-resolver
+416 silly REMOVE node_modules/@react-native/community-cli-plugin/node_modules/metro-minify-terser
+417 silly REMOVE node_modules/@react-native/community-cli-plugin/node_modules/metro-file-map
+418 silly REMOVE node_modules/@react-native/community-cli-plugin/node_modules/metro-file-map/node_modules/ms
+419 silly REMOVE node_modules/@react-native/community-cli-plugin/node_modules/metro-file-map/node_modules/debug
+420 silly REMOVE node_modules/@react-native/community-cli-plugin/node_modules/metro-core
+421 silly REMOVE node_modules/@react-native/community-cli-plugin/node_modules/metro-config
+422 silly REMOVE node_modules/@react-native/community-cli-plugin/node_modules/metro-cache-key
+423 silly REMOVE node_modules/@react-native/community-cli-plugin/node_modules/metro-cache
+424 silly REMOVE node_modules/@react-native/community-cli-plugin/node_modules/metro-babel-transformer
+425 silly REMOVE node_modules/@react-native/community-cli-plugin/node_modules/metro
+426 silly REMOVE node_modules/@react-native/community-cli-plugin/node_modules/metro/node_modules/ms
+427 silly REMOVE node_modules/@react-native/community-cli-plugin/node_modules/metro/node_modules/debug
+428 silly REMOVE node_modules/@react-native/community-cli-plugin/node_modules/debug
+429 silly CHANGE node_modules/@react-native/assets-registry
+430 silly REMOVE node_modules/@expo/prebuild-config/node_modules/@react-native/normalize-colors
+431 silly CHANGE node_modules/@expo/metro-runtime
+432 verbose cwd D:\Project\DiemDanhTN\frontend
+433 verbose os Windows_NT 10.0.26100
+434 verbose node v22.20.0
+435 verbose npm  v10.9.3
+436 notice
+436 notice New major version of npm available! 10.9.3 -> 11.13.0
+436 notice Changelog: https://github.com/npm/cli/releases/tag/v11.13.0
+436 notice To update run: npm install -g npm@11.13.0
+436 notice  { force: true, [Symbol(proc-log.meta)]: true }
+437 verbose exit 0
+438 info ok

@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "ClassPulse Attendance",
+    "slug": "classpulse-attendance",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#0F172A"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0F172A"
+      },
+      "edgeToEdgeEnabled": true
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Cho phep ClassPulse su dung camera de quet ma QR diem danh."
+        }
+      ]
+    ]
+  }
+}
